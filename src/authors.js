@@ -17,26 +17,3 @@ export const adamwathan = {
   avatar: adamwathanAvatar,
 }
 
-export const bradlc = {
-  name: 'Brad Cornes',
-  twitter: '@bradlc',
-  avatar: bradlcAvatar,
-}
-
-export const steveschoger = {
-  name: 'Steve Schoger',
-  twitter: '@steveschoger',
-  avatar: steveschogerAvatar,
-}
-
-export const robinmalfait = {
-  name: 'Robin Malfait',
-  twitter: '@malfaitrobin',
-  avatar: robinmalfaitAvatar,
-}
-
-export const simonswiss = {
-  name: 'Simon Vrachliotis',
-  twitter: '@simonswiss',
-  avatar: simonswissAvatar,
-}

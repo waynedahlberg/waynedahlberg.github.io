@@ -15,10 +15,6 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/016-mid-year-update": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/_app": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
@@ -31,6 +27,10 @@
       "static/runtime/polyfills.js"
     ],
     "/index": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/introducing-verses-for-ios": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
