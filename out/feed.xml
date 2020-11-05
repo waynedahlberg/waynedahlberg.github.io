@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Blog – Wayne Dahlberg]]></title>
+        <description><![CDATA[Blog – Wayne Dahlberg]]></description>
+        <link>https://blog.waynedahlberg.com</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Thu, 05 Nov 2020 04:09:13 GMT</lastBuildDate>
+        <atom:link href="https://blog.waynedahlberg.com/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Introducing Verses]]></title>
+            <description><![CDATA[A beautifully designed reading companion app for The Book of Mormon. ]]></description>
+            <link>https://blog.waynedahlberg.com/introducing-verses-for-ios</link>
+            <guid isPermaLink="false">/introducing-verses-for-ios</guid>
+            <pubDate>Wed, 04 Nov 2020 14:24:00 GMT</pubDate>
+            <author>
+                <name>Wayne Dahlberg</name>
+            </author>
+        </item>
+        <item>
+            <title><![CDATA[Hello World!]]></title>
+            <description><![CDATA[My first blog post. ]]></description>
+            <link>https://blog.waynedahlberg.com/hello world</link>
+            <guid isPermaLink="false">/hello world</guid>
+            <pubDate>Sat, 31 Oct 2020 14:24:00 GMT</pubDate>
+            <author>
+                <name>Wayne Dahlberg</name>
+            </author>
+        </item>
+    </channel>
+</rss>

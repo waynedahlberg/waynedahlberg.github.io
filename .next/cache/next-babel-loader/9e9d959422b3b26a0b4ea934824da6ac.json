@@ -1,0 +1,1 @@
+{"ast":null,"code":"import getAllPostPreviews from '@/getAllPostPreviews';\nexport async function getStaticProps() {\n  return {\n    props: {\n      posts: getAllPostPreviews().map(post => ({\n        title: post.module.meta.title,\n        link: post.link\n      }))\n    }\n  };\n}","map":null,"metadata":{},"sourceType":"module"}
