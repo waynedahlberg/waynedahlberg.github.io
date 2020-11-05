@@ -15,6 +15,10 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
+    "/016-mid-year-update": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/_app": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
@@ -27,14 +31,6 @@
       "static/runtime/polyfills.js"
     ],
     "/index": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/may-the-force-be-with-me": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/next/dist/pages/_error": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

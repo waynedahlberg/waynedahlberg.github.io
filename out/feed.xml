@@ -4,7 +4,7 @@
         <description><![CDATA[Blog – Wayne Dahlberg]]></description>
         <link>https://blog.waynedahlberg.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 05 Nov 2020 04:44:39 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Nov 2020 06:41:05 GMT</lastBuildDate>
         <atom:link href="https://blog.waynedahlberg.com/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Introducing Verses]]></title>
@@ -12,6 +12,116 @@
             <link>https://blog.waynedahlberg.com/introducing-verses-for-ios</link>
             <guid isPermaLink="false">/introducing-verses-for-ios</guid>
             <pubDate>Wed, 04 Nov 2020 14:24:00 GMT</pubDate>
+            <author>
+                <name>Wayne Dahlberg</name>
+            </author>
+        </item>
+        <item>
+            <title><![CDATA[July Update]]></title>
+            <description><![CDATA[A lot has happened]]></description>
+            <link>https://blog.waynedahlberg.com/011-july-update</link>
+            <guid isPermaLink="false">/011-july-update</guid>
+            <pubDate>Wed, 13 Jul 2016 14:24:00 GMT</pubDate>
+            <author>
+                <name>Wayne Dahlberg</name>
+            </author>
+        </item>
+        <item>
+            <title><![CDATA[Dome Motor & Holoprojectors]]></title>
+            <description><![CDATA[New deliveries]]></description>
+            <link>https://blog.waynedahlberg.com/010-dome-motor</link>
+            <guid isPermaLink="false">/010-dome-motor</guid>
+            <pubDate>Thu, 23 Jun 2016 14:24:00 GMT</pubDate>
+            <author>
+                <name>Wayne Dahlberg</name>
+            </author>
+        </item>
+        <item>
+            <title><![CDATA[Finishing the Dome pt. II]]></title>
+            <description><![CDATA[Wax on, wax off]]></description>
+            <link>https://blog.waynedahlberg.com/009-dome-finished-2</link>
+            <guid isPermaLink="false">/009-dome-finished-2</guid>
+            <pubDate>Sun, 08 May 2016 14:24:00 GMT</pubDate>
+            <author>
+                <name>Wayne Dahlberg</name>
+            </author>
+        </item>
+        <item>
+            <title><![CDATA[Finishing the Dome pt. I]]></title>
+            <description><![CDATA[Wax on, wax off 2]]></description>
+            <link>https://blog.waynedahlberg.com/008-dome-finished</link>
+            <guid isPermaLink="false">/008-dome-finished</guid>
+            <pubDate>Sat, 02 Apr 2016 14:24:00 GMT</pubDate>
+            <author>
+                <name>Wayne Dahlberg</name>
+            </author>
+        </item>
+        <item>
+            <title><![CDATA[Radar Eye]]></title>
+            <description><![CDATA[The eye has it.]]></description>
+            <link>https://blog.waynedahlberg.com/007-radar-eye</link>
+            <guid isPermaLink="false">/007-radar-eye</guid>
+            <pubDate>Tue, 15 Mar 2016 14:24:00 GMT</pubDate>
+            <author>
+                <name>Wayne Dahlberg</name>
+            </author>
+        </item>
+        <item>
+            <title><![CDATA[Mothers Polish]]></title>
+            <description><![CDATA[Shine on you crazy diamond]]></description>
+            <link>https://blog.waynedahlberg.com/006-mothers-polish</link>
+            <guid isPermaLink="false">/006-mothers-polish</guid>
+            <pubDate>Fri, 26 Feb 2016 14:24:00 GMT</pubDate>
+            <author>
+                <name>Wayne Dahlberg</name>
+            </author>
+        </item>
+        <item>
+            <title><![CDATA[Logic Display Assembly]]></title>
+            <description><![CDATA[All of the lights]]></description>
+            <link>https://blog.waynedahlberg.com/005-logic-display-assembly</link>
+            <guid isPermaLink="false">/005-logic-display-assembly</guid>
+            <pubDate>Wed, 24 Feb 2016 14:24:00 GMT</pubDate>
+            <author>
+                <name>Wayne Dahlberg</name>
+            </author>
+        </item>
+        <item>
+            <title><![CDATA[Hydro Dome Arrived]]></title>
+            <description><![CDATA[Now this is podracing.]]></description>
+            <link>https://blog.waynedahlberg.com/004-hydro-dome</link>
+            <guid isPermaLink="false">/004-hydro-dome</guid>
+            <pubDate>Mon, 15 Feb 2016 14:24:00 GMT</pubDate>
+            <author>
+                <name>Wayne Dahlberg</name>
+            </author>
+        </item>
+        <item>
+            <title><![CDATA[Aluminum Logic Surrounds]]></title>
+            <description><![CDATA[Very first part has arrived]]></description>
+            <link>https://blog.waynedahlberg.com/003-aluminum-logic-surrounds</link>
+            <guid isPermaLink="false">/003-aluminum-logic-surrounds</guid>
+            <pubDate>Wed, 10 Feb 2016 14:24:00 GMT</pubDate>
+            <author>
+                <name>Wayne Dahlberg</name>
+            </author>
+        </item>
+        <item>
+            <title><![CDATA[Hydrodomes ordered]]></title>
+            <description><![CDATA[A journey of a thousand light years.]]></description>
+            <link>https://blog.waynedahlberg.com/002-hydrodomes-ordered</link>
+            <guid isPermaLink="false">/002-hydrodomes-ordered</guid>
+            <pubDate>Mon, 08 Feb 2016 14:24:00 GMT</pubDate>
+            <author>
+                <name>Wayne Dahlberg</name>
+            </author>
+        </item>
+        <item>
+            <title><![CDATA[May the force be with me]]></title>
+            <description><![CDATA[A journey of a thousand light years.]]></description>
+            <link>https://blog.waynedahlberg.com/001-may-the-force-be-with-me</link>
+            <guid isPermaLink="false">/001-may-the-force-be-with-me</guid>
+            <pubDate>Sun, 07 Feb 2016 14:24:00 GMT</pubDate>
             <author>
                 <name>Wayne Dahlberg</name>
             </author>

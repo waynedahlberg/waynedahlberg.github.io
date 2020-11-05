@@ -1,0 +1,73 @@
+import { waynedahlberg } from "@/authors";
+import image1 from "./card-flip-gif.gif";
+import figmaCards from "./figma-cards.jpg";
+
+export const meta = {
+  title: `Flipping Cards`,
+  description: `Chatbooks Cards`,
+  date: "2019-05-19T14:24:00.000Z",
+  authors: [waynedahlberg],
+  discussion: "https://github.com/tailwindlabs/tailwindcss/discussions/2511",
+};
+
+The other day I wanted to represent a physical 2-sided card in a design. The previous design had the user selecting the front or back of the card, with the new view being presented showing that side of the card. We can do better. Let's make this more interactive!
+
+<!--more-->
+
+**Design**
+The face card was scanned and traced in Illustrator, then exported as SVG into Figma.
+
+<img src={figmaCards} alt="figma cards" />
+
+**Xcode**
+A _Single View Application_ will do fine for this demo. Our card will be a tappable button. Add in an outlet for the card:
+
+```swift
+@IBOutlet weak var btnCard: UIButton!
+var isOpen = false
+```
+
+In the _viewDidLoad()_ method, further customize the card button:
+
+```swift
+override func viewDidLoad() {
+	...
+	btnCard.adjustsImageWhenHighlighted = false
+	btnCard.layer.cornerRadius = 11.0
+	btnCard.layer.shadowColor = UIColor.gray.cgColor
+	btnCard.layer.shadowOffset = CGSize(width: 0.0, height: 10.0)
+	btnCard.layer.shadowRadius = 12.0
+	btnCard.layer.shadowOpacity = 0.7
+}
+```
+
+And finally, let's add the action to the button tap, swapping the image, and animating the view's transform:
+
+```swift
+  @IBAction func btnFlip(_ sender: Any) {
+    if isOpen {
+      isOpen = false
+      let image = UIImage(named: "cardBack")
+      btnCard.setImage(image, for: .normal)
+      UIView.transition(with: btnCard, duration: 0.3,
+       options: .transitionFlipFromLeft, animations: nil, completion: nil)
+    } else {
+      isOpen = true
+      let image = UIImage(named: "cardFront")
+      btnCard.setImage(image, for: .normal)
+      UIView.transition(with: btnCard, duration: 0.3, options: .transitionFlipFromRight, animations: nil, completion: nil)
+    }
+  }
+```
+
+We're basically using a built-in animation called `.transtitionFlipFromRight` and `.transitionFlipFromLeft` to simulate the flipping. The animation duration is set to `0.3` seconds, and swaps the image using the _isOpen_ binary flag.
+
+**Result**
+
+If you'd like to take a look at some of the other _free_ animation curves, settings and transition presets UIKit provides, take a look at [Apple's documentation](https://developer.apple.com/documentation/uikit/uiview/animationoptions).
+
+**Conclusion**
+
+Today we discussed a simple way to flip a card or any view for that matter. Using nothing but built-in UIKit animation presets.
+
+Feel free to follow me on [Twitter](https://twitter.com/waynedahlberg) and ask your questions related to this post. Thanks for reading and see you next post.
