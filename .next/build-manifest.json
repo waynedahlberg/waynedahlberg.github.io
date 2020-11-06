@@ -26,11 +26,11 @@
     "/_polyfills": [
       "static/runtime/polyfills.js"
     ],
-    "/index": [
+    "/about": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/introducing-verses-for-ios": [
+    "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

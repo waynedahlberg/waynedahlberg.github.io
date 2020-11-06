@@ -1,0 +1,74 @@
+webpackHotUpdate("static/development/pages/index.js",{
+
+/***/ "./src/pages sync recursive \\.mdx$":
+/*!****************************************!*\
+  !*** ./src/pages ?preview sync \.mdx$ ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var map = {\n\t\"./introducing-verses/index.mdx\": \"./src/pages/introducing-verses/index.mdx?preview\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/pages sync recursive \\\\.mdx$\";//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvcGFnZXMgPzViYzAiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBOzs7QUFHQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJmaWxlIjoiLi9zcmMvcGFnZXMgc3luYyByZWN1cnNpdmUgXFwubWR4JC5qcyIsInNvdXJjZXNDb250ZW50IjpbInZhciBtYXAgPSB7XG5cdFwiLi9pbnRyb2R1Y2luZy12ZXJzZXMvaW5kZXgubWR4XCI6IFwiLi9zcmMvcGFnZXMvaW50cm9kdWNpbmctdmVyc2VzL2luZGV4Lm1keD9wcmV2aWV3XCJcbn07XG5cblxuZnVuY3Rpb24gd2VicGFja0NvbnRleHQocmVxKSB7XG5cdHZhciBpZCA9IHdlYnBhY2tDb250ZXh0UmVzb2x2ZShyZXEpO1xuXHRyZXR1cm4gX193ZWJwYWNrX3JlcXVpcmVfXyhpZCk7XG59XG5mdW5jdGlvbiB3ZWJwYWNrQ29udGV4dFJlc29sdmUocmVxKSB7XG5cdGlmKCFfX3dlYnBhY2tfcmVxdWlyZV9fLm8obWFwLCByZXEpKSB7XG5cdFx0dmFyIGUgPSBuZXcgRXJyb3IoXCJDYW5ub3QgZmluZCBtb2R1bGUgJ1wiICsgcmVxICsgXCInXCIpO1xuXHRcdGUuY29kZSA9ICdNT0RVTEVfTk9UX0ZPVU5EJztcblx0XHR0aHJvdyBlO1xuXHR9XG5cdHJldHVybiBtYXBbcmVxXTtcbn1cbndlYnBhY2tDb250ZXh0LmtleXMgPSBmdW5jdGlvbiB3ZWJwYWNrQ29udGV4dEtleXMoKSB7XG5cdHJldHVybiBPYmplY3Qua2V5cyhtYXApO1xufTtcbndlYnBhY2tDb250ZXh0LnJlc29sdmUgPSB3ZWJwYWNrQ29udGV4dFJlc29sdmU7XG5tb2R1bGUuZXhwb3J0cyA9IHdlYnBhY2tDb250ZXh0O1xud2VicGFja0NvbnRleHQuaWQgPSBcIi4vc3JjL3BhZ2VzIHN5bmMgcmVjdXJzaXZlIFxcXFwubWR4JFwiOyJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/pages sync recursive \\.mdx$\n");
+
+/***/ }),
+
+/***/ "./src/pages/introducing-verses-for-ios/astromech.jpg":
+false,
+
+/***/ "./src/pages/introducing-verses-for-ios/card.jpg":
+false,
+
+/***/ "./src/pages/introducing-verses-for-ios/early-days.jpg":
+false,
+
+/***/ "./src/pages/introducing-verses-for-ios/index.mdx?preview":
+false,
+
+/***/ "./src/pages/introducing-verses/astromech.jpg":
+/*!****************************************************!*\
+  !*** ./src/pages/introducing-verses/astromech.jpg ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/_next/static/media/astromech.2f4f9db9521a0da1df70e231af6f5127.jpg\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvcGFnZXMvaW50cm9kdWNpbmctdmVyc2VzL2FzdHJvbWVjaC5qcGc/NzFhOCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtBQUFlLG1JQUFvRSIsImZpbGUiOiIuL3NyYy9wYWdlcy9pbnRyb2R1Y2luZy12ZXJzZXMvYXN0cm9tZWNoLmpwZy5qcyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IFwiL19uZXh0L3N0YXRpYy9tZWRpYS9hc3Ryb21lY2guMmY0ZjlkYjk1MjFhMGRhMWRmNzBlMjMxYWY2ZjUxMjcuanBnXCI7Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/pages/introducing-verses/astromech.jpg\n");
+
+/***/ }),
+
+/***/ "./src/pages/introducing-verses/card.jpg":
+/*!***********************************************!*\
+  !*** ./src/pages/introducing-verses/card.jpg ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/_next/static/media/card.eca2e0b364c20a23b42f6bb247f17149.jpg\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvcGFnZXMvaW50cm9kdWNpbmctdmVyc2VzL2NhcmQuanBnPzY2MjAiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFBZSw4SEFBK0QiLCJmaWxlIjoiLi9zcmMvcGFnZXMvaW50cm9kdWNpbmctdmVyc2VzL2NhcmQuanBnLmpzIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQgXCIvX25leHQvc3RhdGljL21lZGlhL2NhcmQuZWNhMmUwYjM2NGMyMGEyM2I0MmY2YmIyNDdmMTcxNDkuanBnXCI7Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/pages/introducing-verses/card.jpg\n");
+
+/***/ }),
+
+/***/ "./src/pages/introducing-verses/early-days.jpg":
+/*!*****************************************************!*\
+  !*** ./src/pages/introducing-verses/early-days.jpg ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/_next/static/media/early-days.7d00bec0649264aaa5ec96345a49d8cb.jpg\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvcGFnZXMvaW50cm9kdWNpbmctdmVyc2VzL2Vhcmx5LWRheXMuanBnP2JmNjUiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFBZSxvSUFBcUUiLCJmaWxlIjoiLi9zcmMvcGFnZXMvaW50cm9kdWNpbmctdmVyc2VzL2Vhcmx5LWRheXMuanBnLmpzIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQgXCIvX25leHQvc3RhdGljL21lZGlhL2Vhcmx5LWRheXMuN2QwMGJlYzA2NDkyNjRhYWE1ZWM5NjM0NWE0OWQ4Y2IuanBnXCI7Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/pages/introducing-verses/early-days.jpg\n");
+
+/***/ }),
+
+/***/ "./src/pages/introducing-verses/index.mdx?preview":
+/*!********************************************************!*\
+  !*** ./src/pages/introducing-verses/index.mdx?preview ***!
+  \********************************************************/
+/*! exports provided: meta, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"meta\", function() { return meta; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return MDXContent; });\n/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutProperties */ \"./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js\");\n/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ \"./node_modules/@babel/runtime/helpers/esm/extends.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mdx-js/react */ \"./node_modules/@mdx-js/react/dist/esm.js\");\n/* harmony import */ var _authors__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/authors */ \"./src/authors.js\");\n/* harmony import */ var _card_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./card.jpg */ \"./src/pages/introducing-verses/card.jpg\");\n/* harmony import */ var _early_days_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./early-days.jpg */ \"./src/pages/introducing-verses/early-days.jpg\");\n/* harmony import */ var _astromech_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./astromech.jpg */ \"./src/pages/introducing-verses/astromech.jpg\");\n\n\nvar _jsxFileName = \"/Users/waynedahlberg/Blog/waynedahlberg.github.io/src/pages/introducing-verses/index.mdx\";\nvar __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;\n\n\n/* @jsx mdx */\n\n\n\n\n\nvar meta = {\n  title: \"Introducing Verses\",\n  description: \"A beautifully designed reading companion app for The Book of Mormon. \",\n  date: \"2020-11-04T14:24:00.000Z\",\n  authors: [_authors__WEBPACK_IMPORTED_MODULE_4__[\"waynedahlberg\"]],\n  image: _card_jpg__WEBPACK_IMPORTED_MODULE_5__[\"default\"],\n  discussion: \"https://github.com/tailwindlabs/tailwindcss/discussions/2511\"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn(\"Component \" + name + \" was not imported, exported, or provided by MDXProvider as global scope\");\n    return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__[\"mdx\"])(\"div\", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__[\"default\"])({}, props, {\n      __self: this,\n      __source: {\n        fileName: _jsxFileName,\n        lineNumber: 20,\n        columnNumber: 10\n      }\n    }));\n  };\n};\n\nvar layoutProps = {\n  meta: meta\n};\nvar MDXLayout = \"wrapper\";\nfunction MDXContent(_ref) {\n  var components = _ref.components,\n      props = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(_ref, [\"components\"]);\n\n  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__[\"mdx\"])(MDXLayout, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__[\"default\"])({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\",\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 31,\n      columnNumber: 10\n    }\n  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__[\"mdx\"])(\"p\", {\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 34,\n      columnNumber: 5\n    }\n  }, \"The year 2020 has really thrown a wrench into all our lifestyles. Here at home, and around the world, the LDS Church has cancelled Sunday services due to the global COVID-19 pandemic. In addition to the great resources the Church has provided for home-centered learning, I wanted a convenient way to keep up with my daily reading of \", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__[\"mdx\"])(\"em\", {\n    parentName: \"p\",\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 34,\n      columnNumber: 345\n    }\n  }, \"The Book of Mormon\"), \".\"));\n}\n_c = MDXContent;\n;\nMDXContent.isMDXComponent = true;\n\nvar _c;\n\n$RefreshReg$(_c, \"MDXContent\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvcGFnZXMvaW50cm9kdWNpbmctdmVyc2VzL2luZGV4Lm1keD8yMTAyIl0sIm5hbWVzIjpbIm1ldGEiLCJ0aXRsZSIsImRlc2NyaXB0aW9uIiwiZGF0ZSIsImF1dGhvcnMiLCJ3YXluZWRhaGxiZXJnIiwiaW1hZ2UiLCJkaXNjdXNzaW9uIiwibWFrZVNob3J0Y29kZSIsIm5hbWUiLCJNRFhEZWZhdWx0U2hvcnRjb2RlIiwicHJvcHMiLCJjb25zb2xlIiwid2FybiIsImxheW91dFByb3BzIiwiTURYTGF5b3V0IiwiTURYQ29udGVudCIsImNvbXBvbmVudHMiLCJpc01EWENvbXBvbmVudCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7OztBQUNBO0FBQ0E7QUFFQTs7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNPLElBQU1BLElBQUksR0FBRztBQUNsQkMsT0FBSyxzQkFEYTtBQUVsQkMsYUFBVyx5RUFGTztBQUdsQkMsTUFBSSxFQUFFLDBCQUhZO0FBSWxCQyxTQUFPLEVBQUUsQ0FBQ0Msc0RBQUQsQ0FKUztBQUtsQkMsT0FBSyxFQUFMQSxpREFMa0I7QUFNbEJDLFlBQVUsRUFBRTtBQU5NLENBQWI7O0FBUVAsSUFBTUMsYUFBYSxHQUFHLFNBQWhCQSxhQUFnQixDQUFBQyxJQUFJO0FBQUEsU0FBSSxTQUFTQyxtQkFBVCxDQUE2QkMsS0FBN0IsRUFBb0M7QUFDaEVDLFdBQU8sQ0FBQ0MsSUFBUixDQUFhLGVBQWVKLElBQWYsR0FBc0IseUVBQW5DO0FBQ0EsV0FBTyx3SkFBU0UsS0FBVDtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLE9BQVA7QUFDRCxHQUh5QjtBQUFBLENBQTFCOztBQUtBLElBQU1HLFdBQVcsR0FBRztBQUNsQmQsTUFBSSxFQUFKQTtBQURrQixDQUFwQjtBQUdBLElBQU1lLFNBQVMsR0FBRyxTQUFsQjtBQUNlLFNBQVNDLFVBQVQsT0FHWjtBQUFBLE1BRkRDLFVBRUMsUUFGREEsVUFFQztBQUFBLE1BREVOLEtBQ0Y7O0FBQ0QsU0FBTywwREFBQyxTQUFELHlGQUFlRyxXQUFmLEVBQWdDSCxLQUFoQztBQUF1QyxjQUFVLEVBQUVNLFVBQW5EO0FBQStELFdBQU8sRUFBQyxXQUF2RTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLE1BR0w7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxzVkFBb1Y7QUFBSSxjQUFVLEVBQUMsR0FBZjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLDBCQUFwVixNQUhLLENBQVA7QUFLRDtLQVR1QkQsVTtBQVd4QjtBQUNBQSxVQUFVLENBQUNFLGNBQVgsR0FBNEIsSUFBNUIiLCJmaWxlIjoiLi9zcmMvcGFnZXMvaW50cm9kdWNpbmctdmVyc2VzL2luZGV4Lm1keD9wcmV2aWV3LmpzIiwic291cmNlc0NvbnRlbnQiOlsiXG5pbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXG5pbXBvcnQgeyBtZHggfSBmcm9tICdAbWR4LWpzL3JlYWN0J1xuXG4vKiBAanN4IG1keCAqL1xuaW1wb3J0IHsgd2F5bmVkYWhsYmVyZyB9IGZyb20gXCJAL2F1dGhvcnNcIjtcbmltcG9ydCBpbWFnZSBmcm9tIFwiLi9jYXJkLmpwZ1wiO1xuaW1wb3J0IGVhcmx5RGF5cyBmcm9tIFwiLi9lYXJseS1kYXlzLmpwZ1wiO1xuaW1wb3J0IGFzdHJvbWVjaCBmcm9tIFwiLi9hc3Ryb21lY2guanBnXCI7XG5leHBvcnQgY29uc3QgbWV0YSA9IHtcbiAgdGl0bGU6IGBJbnRyb2R1Y2luZyBWZXJzZXNgLFxuICBkZXNjcmlwdGlvbjogYEEgYmVhdXRpZnVsbHkgZGVzaWduZWQgcmVhZGluZyBjb21wYW5pb24gYXBwIGZvciBUaGUgQm9vayBvZiBNb3Jtb24uIGAsXG4gIGRhdGU6IFwiMjAyMC0xMS0wNFQxNDoyNDowMC4wMDBaXCIsXG4gIGF1dGhvcnM6IFt3YXluZWRhaGxiZXJnXSxcbiAgaW1hZ2UsXG4gIGRpc2N1c3Npb246IFwiaHR0cHM6Ly9naXRodWIuY29tL3RhaWx3aW5kbGFicy90YWlsd2luZGNzcy9kaXNjdXNzaW9ucy8yNTExXCJcbn07XG5jb25zdCBtYWtlU2hvcnRjb2RlID0gbmFtZSA9PiBmdW5jdGlvbiBNRFhEZWZhdWx0U2hvcnRjb2RlKHByb3BzKSB7XG4gIGNvbnNvbGUud2FybihcIkNvbXBvbmVudCBcIiArIG5hbWUgKyBcIiB3YXMgbm90IGltcG9ydGVkLCBleHBvcnRlZCwgb3IgcHJvdmlkZWQgYnkgTURYUHJvdmlkZXIgYXMgZ2xvYmFsIHNjb3BlXCIpXG4gIHJldHVybiA8ZGl2IHsuLi5wcm9wc30vPlxufTtcblxuY29uc3QgbGF5b3V0UHJvcHMgPSB7XG4gIG1ldGFcbn07XG5jb25zdCBNRFhMYXlvdXQgPSBcIndyYXBwZXJcIlxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gTURYQ29udGVudCh7XG4gIGNvbXBvbmVudHMsXG4gIC4uLnByb3BzXG59KSB7XG4gIHJldHVybiA8TURYTGF5b3V0IHsuLi5sYXlvdXRQcm9wc30gey4uLnByb3BzfSBjb21wb25lbnRzPXtjb21wb25lbnRzfSBtZHhUeXBlPVwiTURYTGF5b3V0XCI+XG5cblxuICAgIDxwPntgVGhlIHllYXIgMjAyMCBoYXMgcmVhbGx5IHRocm93biBhIHdyZW5jaCBpbnRvIGFsbCBvdXIgbGlmZXN0eWxlcy4gSGVyZSBhdCBob21lLCBhbmQgYXJvdW5kIHRoZSB3b3JsZCwgdGhlIExEUyBDaHVyY2ggaGFzIGNhbmNlbGxlZCBTdW5kYXkgc2VydmljZXMgZHVlIHRvIHRoZSBnbG9iYWwgQ09WSUQtMTkgcGFuZGVtaWMuIEluIGFkZGl0aW9uIHRvIHRoZSBncmVhdCByZXNvdXJjZXMgdGhlIENodXJjaCBoYXMgcHJvdmlkZWQgZm9yIGhvbWUtY2VudGVyZWQgbGVhcm5pbmcsIEkgd2FudGVkIGEgY29udmVuaWVudCB3YXkgdG8ga2VlcCB1cCB3aXRoIG15IGRhaWx5IHJlYWRpbmcgb2YgYH08ZW0gcGFyZW50TmFtZT1cInBcIj57YFRoZSBCb29rIG9mIE1vcm1vbmB9PC9lbT57YC5gfTwvcD5cbiAgICA8L01EWExheW91dD47XG59XG5cbjtcbk1EWENvbnRlbnQuaXNNRFhDb21wb25lbnQgPSB0cnVlOyJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/pages/introducing-verses/index.mdx?preview\n");
+
+/***/ })
+
+})

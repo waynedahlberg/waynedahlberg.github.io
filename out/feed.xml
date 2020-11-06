@@ -4,13 +4,13 @@
         <description><![CDATA[Blog – Wayne Dahlberg]]></description>
         <link>https://blog.waynedahlberg.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 06 Nov 2020 22:05:42 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 06 Nov 2020 23:18:42 GMT</lastBuildDate>
         <atom:link href="https://blog.waynedahlberg.com/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Introducing Verses]]></title>
             <description><![CDATA[A beautifully designed reading companion app for The Book of Mormon. ]]></description>
-            <link>https://blog.waynedahlberg.com/introducing-verses-for-ios</link>
-            <guid isPermaLink="false">/introducing-verses-for-ios</guid>
+            <link>https://blog.waynedahlberg.com/introducing-verses</link>
+            <guid isPermaLink="false">/introducing-verses</guid>
             <pubDate>Wed, 04 Nov 2020 14:24:00 GMT</pubDate>
             <author>
                 <name>Wayne Dahlberg</name>

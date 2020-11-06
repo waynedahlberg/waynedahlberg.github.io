@@ -49,7 +49,7 @@ export default function Home() {
                   <div className="space-y-3">
                     <h2 className="text-6xl leading-8 font-bold tracking-tight">
                       <Link href={link}>
-                        <a className="text-gray-900 hover:text-indigo-800 text-3xl leading-6 font-bold">{meta.title}</a>
+                        <a className="text-gray-900 text-3xl leading-6 font-bold">{meta.title}</a>
                       </Link>
                     </h2>
                     <div className="prose max-w-none text-gray-500">
@@ -59,7 +59,7 @@ export default function Home() {
                   <div className="text-base leading-6 font-medium">
                     <Link href={link}>
                       <a
-                        className="text-indigo-500 hover:text-indigo-600"
+                        className="text-teal-500 hover:text-teal-600"
                         aria-label={`Read "${meta.title}"`}
                       >
                         Read more &rarr;
