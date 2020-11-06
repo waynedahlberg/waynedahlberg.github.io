@@ -68,7 +68,7 @@ export default function Header() {
         </Link>
       </div>
       <div className="text-base leading-5">
-        <a href="http://waynedahlberg.com/about" className="font-medium text-indigo-500 hover:text-indigo-600">
+        <a href="http://waynedahlberg.com/about" className="font-medium text-gray-500 hover:text-gray-700">
           About
         </a>
       </div>
