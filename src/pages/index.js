@@ -13,18 +13,18 @@ export default function Home() {
     <div className="divide-y divide-gray-200">
       <Head>
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@tailwindcss" />
-        <meta name="twitter:creator" content="@tailwindcss" />
-        <meta name="twitter:title" content="Blog – Tailwind CSS" />
-        <meta name="twitter:description" content="News content from the Tailwind CSS team." />
-        <meta name="twitter:image" content={`https://blog.tailwindcss.com${twitterCard}`} />
-        <meta property="og:url" content="https://blog.tailwindcss.com" />
+        <meta name="twitter:site" content="@waynedahlberg" />
+        <meta name="twitter:creator" content="@waynedahlberg" />
+        <meta name="twitter:title" content="Blog – Wayne Dahlberg" />
+        <meta name="twitter:description" content="Articles and thoughts on product design, user experience and software development." />
+        <meta name="twitter:image" content={`https://wayne.work${twitterCard}`} />
+        <meta property="og:url" content="https://wayne.work" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Blog – Tailwind CSS" />
-        <meta property="og:description" content="News content from the Tailwind CSS team." />
-        <meta property="og:image" content={`https://blog.tailwindcss.com${twitterCard}`} />
-        <title>Blog – Tailwind CSS</title>
-        <meta name="description" content="News content from the Tailwind CSS team." />
+        <meta property="og:title" content="Blog – Wayne Dahlberg" />
+        <meta property="og:description" content="Articles and thoughts on product design, user experience and software development." />
+        <meta property="og:image" content={`https://wayne.work${twitterCard}`} />
+        <title>Blog - Wayne Dahlberg</title>
+        <meta name="description" content="Articles and thoughts on product design, user experience and software development." />
       </Head>
       <div className="pt-6 pb-8 space-y-2 md:space-y-5">
         <h1 className="text-3xl leading-9 font-light text-gray-900 tracking-tight sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
