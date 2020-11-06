@@ -1,1 +1,0 @@
-self.__BUILD_MANIFEST = (function(a){return {"/":[a],"/index":[a],"/introducing-verses-for-ios":[a]}}("static\u002Fchunks\u002F64dcd411da0aa910e6c5c3fa75f9da9373d34a86.593033d4102a1e8eb52c.module.js"));self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()

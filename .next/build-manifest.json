@@ -29,6 +29,10 @@
     "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
+    ],
+    "/introducing-verses-for-ios": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }
