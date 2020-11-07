@@ -1,1 +1,0 @@
-self.__BUILD_MANIFEST = (function(a){return {"/":[a],"/index":[a],"/introducing-verses":[a]}}("static\u002Fchunks\u002Fac1fcbd2bd525c953b43a1cfdb2eded0683f2f14.b1ee4477695cd9460299.module.js"));self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
