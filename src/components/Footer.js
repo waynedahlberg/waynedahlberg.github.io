@@ -3,7 +3,7 @@
 export default function Footer() {
     return (
         <footer className="bg-white">
-        <div className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
+        <div className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-0">
             <div className="flex justify-center space-x-6 md:order-2">
             <a href="https://twitter.com/waynedahlberg" className="text-gray-400 hover:text-teal-500">
                 <span className="sr-only">Twitter</span>
@@ -37,7 +37,7 @@ export default function Footer() {
             </a>
             </div>
             <div className="mt-8 md:mt-0 md:order-1">
-            <p className="text-center text-base leading-6 text-gray-400">
+            <p className="text-center text-xs leading-6 text-gray-400">
                 &copy; 2020 Wayne Dahlberg. All rights reserved.
             </p>
             </div>
