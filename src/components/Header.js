@@ -36,7 +36,7 @@
             </a>
           </Link>
 
-          <Link href="#">
+          <Link href="/projects">
             <a className="font-medium text-gray=500 hover:text-gray-700 pl-8">
               Projects
             </a>

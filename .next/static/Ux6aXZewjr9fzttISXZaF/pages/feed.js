@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{UaL4:function(n,w,o){(window.__NEXT_P=window.__NEXT_P||[]).push(["/feed",function(){return o("bgeD")}])},bgeD:function(n,w){}},[["UaL4",0]]]);
