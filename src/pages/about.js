@@ -1,6 +1,6 @@
     import Link from 'next/link'
     import Head from 'next/head'
-    import avatar from '@/img/avatar.jpg'
+    import avatar from '@/img/car-selfie.jpg'
 
     export default function About() {
         return (
@@ -23,8 +23,8 @@
                     <h1 className="text-3xl leading-9 font-bold text-gray-900 tracking-tight sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
                         About me
                     </h1>
-                    <p className="text-base font-semibold leading-7 text-gray-500 tracking-wide">
-                        I'm a designer at <span className="text-teal-500 font-semibold">Chatbooks</span> in Utah.
+                    <p className="text-base font-semibold leading-7 text-gray-500">
+                        Welcome, and thanks for stopping by. My name is <span className="text-medium">Wayne Dahlberg</span>. I'm a designer at <span className="text-teal-500 font-semibold">Chatbooks</span> in Utah.
                     </p>
                 </div>
 
