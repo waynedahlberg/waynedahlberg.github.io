@@ -25,8 +25,8 @@ export default function Projects() {
             </div>
 
             <div>
-                <h2>Projects</h2>
-                <p>This is a page for my projects</p>
+                <p className="text-3xl font-bold text-indigo-400">Projects</p>
+                <p className="text-gray-500">This is a page for my projects</p>
             </div>
         </div>
     )
