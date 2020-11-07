@@ -30,8 +30,8 @@ export default function Home() {
         <h1 className="text-3xl leading-9 font-bold text-gray-900 tracking-tight sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
           Blog
         </h1>
-        <p className="text-base font-semibold leading-7 text-gray-500 tracking-wide">
-          PRODUCT DESIGN &amp; DEVELOPMENT
+        <p className="text-base font-regular leading-7 text-gray-400 tracking-wide">
+          THOUGHTS ON PRODUCT DESIGN, DEVELOPMENT
         </p>
       </div>
       <ul className="divide-y divide-gray-200">

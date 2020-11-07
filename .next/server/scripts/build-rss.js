@@ -224,22 +224,25 @@ module.exports = require("react");
 
 /***/ }),
 
+/***/ "dHPk":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/waynedahlberg.ec5a7624841b4d34c6fd54883892118f.jpg");
+
+/***/ }),
+
 /***/ "iBhN":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return waynedahlberg; });
+/* harmony import */ var _img_waynedahlberg_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("dHPk");
 
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, "a", function() { return /* binding */ authors_waynedahlberg; });
-
-// CONCATENATED MODULE: ./src/img/waynedahlberg.jpg
-/* harmony default export */ var waynedahlberg = ("/_next/static/media/waynedahlberg.ec5a7624841b4d34c6fd54883892118f.jpg");
-// CONCATENATED MODULE: ./src/authors.js
-
-const authors_waynedahlberg = {
+const waynedahlberg = {
   name: 'Wayne Dahlberg',
   twitter: '@waynedahlberg',
-  avatar: waynedahlberg
+  avatar: _img_waynedahlberg_jpg__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"]
 };
 
 /***/ }),

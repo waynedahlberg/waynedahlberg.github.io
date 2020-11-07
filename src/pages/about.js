@@ -23,6 +23,9 @@
                     <h1 className="text-3xl leading-9 font-bold text-gray-900 tracking-tight sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
                         About me
                     </h1>
+                    <p className="text-base font-regular leading-7 text-gray-400 tracking-wide">
+                        BIO
+                    </p>
                 </div>
                 
                 <div class="text-lg leading-7 pt-8">
