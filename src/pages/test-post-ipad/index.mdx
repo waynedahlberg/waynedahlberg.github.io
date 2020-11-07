@@ -1,0 +1,35 @@
+import { waynedahlberg } from "@/authors";
+import image from "./tailwind.jpg";
+
+
+
+export const meta = {
+  title: `Test post from my iPad`,
+  description: `This post was created in Working Copy.`,
+  date: "2020-11-07T14:24:00.000Z",
+  authors: [waynedahlberg],
+  image,
+  discussion: "https://github.com/tailwindlabs/tailwindcss/discussions/2511",
+};
+
+I've been on the hunt for a solid blogging solution. Static site generators like Jekyll and Gatsby were very appealing to me, but the configuration and setup was bumpy. I found myself learning more about react routes and obscure javascript that I needed for a simple blog. 
+
+I also wanted by blog to look and feel nice. A clean interface that let the content shine.
+
+<!--more-->
+
+In order to look clean, I opted to use the Tailwind CSS framework. I've been really impresssed with what that team has been releasing recently. One of the articles on their site shows how to integrate Tailwind with the Next.js framework. After going through some basic and intermediate examples, I felt Next.js was what I wanted to use. Next.js is created by Vercel, a CI static content management service. It took some finagling, but I was able to connect my blog repo (Next.js) to Vercel, and attach a CI script to run every time Git triggered an update. 
+
+<img src={image} alt="Early days of Verses interface." />
+
+> I want to open my phone and start reading where I left off the day before.
+
+<div className="my-8 relative pb-9/16">
+  <iframe
+    className="absolute inset-0 h-full w-full"
+    src="https://www.youtube.com/embed/lMW6dqHUdSQ"
+    frameBorder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
