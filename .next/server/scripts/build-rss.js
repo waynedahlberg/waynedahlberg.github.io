@@ -174,9 +174,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const feed = new rss__WEBPACK_IMPORTED_MODULE_1___default.a({
-  title: 'Blog – Tailwind CSS',
-  site_url: 'https://blog.tailwindcss.com',
-  feed_url: 'https://blog.tailwindcss.com/feed.xml'
+  title: 'Blog – Wayne Dahlberg',
+  site_url: 'https://wayne.work/',
+  feed_url: 'https://wayne.work/feed.xml'
 });
 Object(_src_getAllPostPreviews__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"])().forEach(({
   link,
@@ -187,7 +187,7 @@ Object(_src_getAllPostPreviews__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"])(
   feed.item({
     title: meta.title,
     guid: link,
-    url: `https://blog.tailwindcss.com${link}`,
+    url: `https://wayne.work${link}`,
     date: meta.date,
     description: meta.description,
     custom_elements: [].concat(meta.authors.map(author => ({
