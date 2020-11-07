@@ -3,7 +3,7 @@ import RSS from 'rss'
 import getAllPostPreviews from '../src/getAllPostPreviews'
 
 const feed = new RSS({
-  title: 'Blog – Wayne Dahlberg',
+  title: 'Blog – Tailwind CSS',
   site_url: 'https://blog.tailwindcss.com',
   feed_url: 'https://blog.tailwindcss.com/feed.xml',
 })
