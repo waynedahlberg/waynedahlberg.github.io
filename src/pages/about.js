@@ -24,7 +24,7 @@
                         About me
                     </h1>
                     <p className="text-base font-semibold leading-7 text-gray-500">
-                        Welcome, and thanks for stopping by. My name is <span className="text-medium">Wayne Dahlberg</span>. I'm a designer at <span className="text-teal-500 font-semibold">Chatbooks</span> in Utah.
+                        Welcome, and thanks for stopping by. My name is <span className="text-semibold">Wayne Dahlberg</span>. I'm a designer at <span className="text-teal-500 font-semibold">Chatbooks</span> in Utah.
                     </p>
                 </div>
 
