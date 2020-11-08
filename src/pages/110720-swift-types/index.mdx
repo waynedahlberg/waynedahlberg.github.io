@@ -8,13 +8,44 @@ export const meta = {
   discussion: "https://github.com/tailwindlabs/tailwindcss/discussions/2511",
 };
 
-**Note:** _This is the first of several articles intended as personal growth exercises, rather than sharing with the community. As I learn new things, I want to write about them to further cement my understanding and hold myself accountable._
-
-In the Swift programming language, nearly everything is based on a _named type_ or a _compound type_.
+In the Swift programming language, nearly everything is based on a named type or compound type. Named types can be assigned names when created. These include _classes_, _structures_, _enumerations_, and _protocols_. Instances of user-defined named types carry the name of the given type. For example, a class named `MyClass` will have the type `MyClass`. Swift also includes many standard named types for arrays, dictionaries and optional values.
 
 <!--more-->
 
-Named types can be assigned names when created. These include **classes**, **structures**, **enumerations**, and **protocols**. Instances of user-defined named types carry the name of the given type. For example, a class named `MyClass` will have the type `MyClass`. Swift also includes many standard named types for arrays, dictionaries and optional values.
+<div class="rounded-md bg-blue-50 p-4">
+  <div class="flex">
+    <div class="flex-shrink-0">
+      <svg
+        class="h-5 w-5 text-blue-400"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+      >
+        <path
+          fillRule="evenodd"
+          d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
+          clipRule="evenodd"
+        />
+      </svg>
+    </div>
+    <div class="ml-3 flex-1 md:flex md:justify-between">
+      <p class="text-sm leading-5 text-blue-700">
+        This post is the first of several intended a personal growth exercise.
+        As I learn and digest new things, I want to write about them to further
+        cement my understanding and hold myself accountable and{" "}
+        <strong>understand rather than just know something</strong>.
+      </p>
+      <p class="mt-3 text-sm leading-5 md:mt-0 md:ml-6">
+        <a
+          href="https://fs.blog/2015/01/richard-feynman-knowing-something/"
+          class="whitespace-no-wrap font-medium text-blue-700 hover:text-blue-600 transition ease-in-out duration-150"
+        >
+          Feynman &rarr;
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
 
 Compound types are types without a specific name. A compound type may contain other named and compound types. For example, the compound tuple type `(Int, (Int, Int))` contains two inner types. The first is the named `Int` type, the second is a compount type of `(Int, Int)`.
 
@@ -71,3 +102,8 @@ Setter functions are optional in computed properties. When no setter function is
 - Reference type instance points to the memory address, not the data
 - Value type instance points to the data but not the memory address
 - Getter and setter functions are called when computed properties are accessed or modified.
+
+### Resources:
+
+- [Understanding Reference and Value types](https://fluffy.es/reference-vs-value-type/)
+- [Choosing Between Structures and Classes](https://developer.apple.com/documentation/swift/choosing_between_structures_and_classes)
