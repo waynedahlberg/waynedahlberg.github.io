@@ -16,13 +16,12 @@ Named types can be assigned names when created. These include **classes**, **str
 
 Compound types are types without a specific name. A compound type may contain other named and compound types. For example, the compound tuple type `(Int, (Int, Int))` contains two inner types. The first is the named `Int` type, the second is a compount type of `(Int, Int)`.
 
-With so many types like `class`, `struct` and `enum`, what are the differences and similarities?
-
-Properties are either stored, or computed. Store properties have fixed values. Computed properties are calculated every time they are referenced. There are also simple observers on properties that listen to changes via callbacks. These observers are `willSet` and `didSet`.
+Properties are either stored, or computed. A stored property has a fixed value. On the other hand, a computed property is calculated every time it is are accessed. There are also simple observers on properties that listen to changes via callbacks. These observers are `willSet` and `didSet`.
 
 This was very difficult for me to wrap my head around in my early Swift learning days.
 
-###Value types vs Reference types
+### Value types vs Reference types
+
 When a piece of data is saved to disk, it is saved in a container. Imagine each container having a label on the outside. Value types refer to the _actual data_ inside the container. Reference types refer to the label, or _memory address_ on the container.
 
 ```Swift
@@ -49,7 +48,8 @@ However, a constant (let) _structure_ instance has constant data, but a variable
 
 Convention tells us to use `struct` primarily, but should opt for `class` when our code is designed for instances, as well as interfacing with legacy Objective-C code.
 
-###Computed Propert — Getters & Setters
+### Computed Properties — Getters & Setters
+
 Computed properties have special functions for getting and setting of property values. It's value is determined by the getter function every time it's accessed, instead of some stored property with a specific value.
 
 Getter functions can retrieve data from storage and setter functions can assign the data to storage directly.
@@ -64,7 +64,7 @@ var randomInteger: Int {
 
 Setter functions are optional in computed properties. When no setter function is defined, it's treated as a normal stored, read-only property.
 
-###Summary
+### Summary
 
 - Reference type instance points to the memory address, not the data
 - Value type instance points to the data but not the memory address
