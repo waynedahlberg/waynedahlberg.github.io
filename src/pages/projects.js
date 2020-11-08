@@ -28,7 +28,6 @@ export default function Projects() {
                     Projects
                 </h1>
                 <p className="text-base font-regular leading-7 text-gray-400 tracking-wide">
-                    ELECTRONICS, APP DEVELOPMENT, DESIGN
                 </p>
             </div>
 
