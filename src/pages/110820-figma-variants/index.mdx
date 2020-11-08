@@ -1,0 +1,38 @@
+import { waynedahlberg } from "@/authors";
+import image1 from "./figma-variants.jpg";
+import image2 from "./variants.jpg";
+
+export const meta = {
+  title: `Figma Variants`,
+  description: `Designing extensible components in Figma is fun!`,
+  date: "2020-11-08T12:00:00.000Z",
+  authors: [waynedahlberg],
+  discussion: "https://github.com/tailwindlabs/tailwindcss/discussions/2511",
+};
+
+Our team at Chatbooks has been fully invested in Figma for several years now. We found it replaced a host of 3rd party solutions that never quite played well together.
+
+One of the great things about Figma is their ability to push the envelope, listen to our feedback, and implement reasoned, smart and functional solutions. Their latest feature, _variants_, comes at a great time as we're finalizing our company's design system — Breakfast.
+
+<img src={image2} alt="Status Bar variations" />
+
+Variants allow us to package visual _state_ within singular or even nested components. These states can be described by a simple key-value relationship for each property. For example, `type:`, `size:`, `color:` could all be properties of the state of a button.
+
+Once a valid group of similar and consistent component states are selected, you simple click **Create Variant**. Once created, you can add and edit the properties that define your variant states.
+
+To test my knowledge of variants, I decided to make my first published component in the Figma Community; an iOS 14 Status Bar. The status bar contains much more variable information than expected. My component is limited to appearance (light and dark mode), battery charging, battery level, wifi signal, network signal, notch and isCameraRecording.
+
+You can check out the file in the Figma Community by clicking the image below.
+
+<a href="https://www.figma.com/community/file/904065746347450024/iOS-14-Status-Bar">
+  <img src={image1} alt="iOS 14 Status Bar Figma Component" />
+</a>
+
+Here's a embedded view as well. You may need to zoom in a bit.
+
+<iframe
+  width="800"
+  height="450"
+  src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FQQHcyX67RRbKHnshLOJRsL%2FiOS-14-Status-Bar-Community%3Fnode-id%3D1%253A21"
+  allowfullscreen
+></iframe>

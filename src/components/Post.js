@@ -72,7 +72,7 @@ export default function Post({ meta, children, posts }) {
                     <dd>
                       <a
                         href={`https://twitter.com/${author.twitter}`}
-                        className="text-indigo-500 hover:text-indigo-600"
+                        className="text-teal-500 hover:text-teal-700"
                       >
                         {author.twitter}
                       </a>
@@ -106,7 +106,7 @@ export default function Post({ meta, children, posts }) {
                   <h2 className="text-xs tracking-wide uppercase text-gray-500">
                     Previous Article
                   </h2>
-                  <div className="text-teal-500 hover:text-teal-600">
+                  <div className="text-teal-500 hover:text-teal-700">
                     <Link href={previous.link}>
                       <a>{previous.title}</a>
                     </Link>
@@ -117,7 +117,7 @@ export default function Post({ meta, children, posts }) {
           )}
           <div className="pt-8">
             <Link href="/">
-              <a className="text-teal-500 hover:text-teal-800">&larr; Home</a>
+              <a className="text-teal-500 hover:text-teal-700">&larr; All Posts</a>
             </Link>
           </div>
         </footer>

@@ -31,19 +31,19 @@
         </div>
         <div className="text-base leading-5">
           <Link href="/">
-            <a className="font-medium text-gray=500 hover:text-gray-700">
+            <a className="font-medium text-teal-500 hover:text-teal-700">
               Blog
             </a>
           </Link>
 
           <Link href="/projects">
-            <a className="font-medium text-gray=500 hover:text-gray-700 pl-8">
+            <a className="font-medium text-teal-500 hover:text-teal-700 pl-8">
               Projects
             </a>
           </Link>
 
           <Link href="/about">
-            <a className="font-medium text-gray=500 hover:text-gray-700 pl-8">
+            <a className="font-medium text-teal-500 hover:text-teal-700 pl-8">
               About
             </a>
           </Link>

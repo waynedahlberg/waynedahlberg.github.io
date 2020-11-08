@@ -93,7 +93,15 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "/6+b":
+/***/ "1C1/":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/nextjs-tailwind-vercel.ae80dcab9d9c1975b77d2f44d91565ed.jpg");
+
+/***/ }),
+
+/***/ "2xIF":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -105,9 +113,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("c2Xn");
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _authors__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("iBhN");
-/* harmony import */ var _card_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("jvI5");
-/* harmony import */ var _early_days_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("my6p");
-/* harmony import */ var _astromech_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("pObF");
+/* harmony import */ var _figma_variants_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("Yoym");
+/* harmony import */ var _variants_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("fVAh");
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -123,13 +130,11 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 
 
 
-
 const meta = {
-  title: `Introducing Verses`,
-  description: `A beautifully designed reading companion app for The Book of Mormon. `,
-  date: "2020-11-04T14:24:00.000Z",
+  title: `Figma Variants`,
+  description: `Designing extensible components in Figma is fun!`,
+  date: "2020-11-08T12:00:00.000Z",
   authors: [_authors__WEBPACK_IMPORTED_MODULE_2__[/* waynedahlberg */ "a"]],
-  image: _card_jpg__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],
   discussion: "https://github.com/tailwindlabs/tailwindcss/discussions/2511"
 };
 
@@ -151,9 +156,32 @@ function MDXContent(_ref) {
   return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])(MDXLayout, _extends({}, layoutProps, props, {
     components: components,
     mdxType: "MDXLayout"
-  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", null, `The year 2020 has really thrown a wrench into all our lifestyles. Here at home, and around the world, the LDS Church has cancelled Sunday services due to the global COVID-19 pandemic. In addition to the great resources the Church has provided for home-centered learning, I wanted a convenient way to keep up with my daily reading of `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("em", {
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", null, `Our team at Chatbooks has been fully invested in Figma for several years now. We found it replaced a host of 3rd party solutions that never quite played well together.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", null, `One of the great things about Figma is their ability to push the envelope, listen to our feedback, and implement reasoned, smart and functional solutions. Their latest feature, `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("em", {
     parentName: "p"
-  }, `The Book of Mormon`), `.`));
+  }, `variants`), `, comes at a great time as we're finalizing our company's design system — Breakfast.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("img", {
+    src: _variants_jpg__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],
+    alt: "Status Bar variations"
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", null, `Variants allow us to package visual `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("em", {
+    parentName: "p"
+  }, `state`), ` within singular or even nested components. These states can be described by a simple key-value relationship for each property. For example, `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("inlineCode", {
+    parentName: "p"
+  }, `type:`), `, `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("inlineCode", {
+    parentName: "p"
+  }, `size:`), `, `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("inlineCode", {
+    parentName: "p"
+  }, `color:`), ` could all be properties of the state of a button.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", null, `Once a valid group of similar and consistent component states are selected, you simple click `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("strong", {
+    parentName: "p"
+  }, `Create Variant`), `. Once created, you can add and edit the properties that define your variant states.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", null, `To test my knowledge of variants, I decided to make my first published component in the Figma Community; an iOS 14 Status Bar. The status bar contains much more variable information than expected. My component is limited to appearance (light and dark mode), battery charging, battery level, wifi signal, network signal, notch and isCameraRecording.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", null, `You can check out the file in the Figma Community by clicking the image below.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", {
+    href: "https://www.figma.com/community/file/904065746347450024/iOS-14-Status-Bar"
+  }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("img", {
+    src: _figma_variants_jpg__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],
+    alt: "iOS 14 Status Bar Figma Component"
+  })), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", null, `Here's a embedded view as well. You may need to zoom in a bit.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("iframe", {
+    width: "800",
+    height: "450",
+    src: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FQQHcyX67RRbKHnshLOJRsL%2FiOS-14-Status-Bar-Community%3Fnode-id%3D1%253A21",
+    allowfullscreen: true
+  }));
 }
 ;
 MDXContent.isMDXComponent = true;
@@ -203,6 +231,88 @@ fs__WEBPACK_IMPORTED_MODULE_0___default.a.writeFileSync('./out/feed.xml', feed.x
 
 /***/ }),
 
+/***/ "Iksx":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/ia-writer-working-copy.0e0efda5bed38e84d0dcb052d125a911.jpg");
+
+/***/ }),
+
+/***/ "PaVW":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "meta", function() { return meta; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("cDcd");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("c2Xn");
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _authors__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("iBhN");
+/* harmony import */ var _ia_writer_working_copy_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("Iksx");
+/* harmony import */ var _nextjs_tailwind_vercel_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("1C1/");
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+
+
+/* @jsx mdx */
+
+
+
+
+const meta = {
+  title: `Hello World 👋`,
+  description: `This is the first post of my blog.`,
+  date: "2020-11-07T19:00:00.000Z",
+  authors: [_authors__WEBPACK_IMPORTED_MODULE_2__[/* waynedahlberg */ "a"]],
+  discussion: "https://github.com/tailwindlabs/tailwindcss/discussions/2511"
+};
+
+const makeShortcode = name => function MDXDefaultShortcode(props) {
+  console.warn("Component " + name + " was not imported, exported, or provided by MDXProvider as global scope");
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("div", props);
+};
+
+const layoutProps = {
+  meta
+};
+const MDXLayout = "wrapper";
+function MDXContent(_ref) {
+  let {
+    components
+  } = _ref,
+      props = _objectWithoutProperties(_ref, ["components"]);
+
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: "MDXLayout"
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", null, `This blog is a long time coming. Like many others, the rise of social media in the last decade had all but squashed my desire for self-publishing. This is my attempt to recapture that desire, and any lingering writing skills and habits. Numerous friends and peers have also revved up their blogging engines, and so with this post I symbolically turn the ignition to `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("strong", {
+    parentName: "p"
+  }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("em", {
+    parentName: "strong"
+  }, `—START—`)), `.`));
+}
+;
+MDXContent.isMDXComponent = true;
+
+/***/ }),
+
+/***/ "Yoym":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/figma-variants.b3f26a09b9f67881069a6506dbf380b3.jpg");
+
+/***/ }),
+
 /***/ "bHcg":
 /***/ (function(module, exports) {
 
@@ -232,6 +342,14 @@ module.exports = require("react");
 
 /***/ }),
 
+/***/ "fVAh":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/variants.32da84dc9221b2ea2391500538df1f55.jpg");
+
+/***/ }),
+
 /***/ "iBhN":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -244,14 +362,6 @@ const waynedahlberg = {
   twitter: '@waynedahlberg',
   avatar: _img_waynedahlberg_jpg__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"]
 };
-
-/***/ }),
-
-/***/ "jvI5":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/card.eca2e0b364c20a23b42f6bb247f17149.jpg");
 
 /***/ }),
 
@@ -286,27 +396,12 @@ module.exports = require("fs");
 
 /***/ }),
 
-/***/ "my6p":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/early-days.7d00bec0649264aaa5ec96345a49d8cb.jpg");
-
-/***/ }),
-
-/***/ "pObF":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* unused harmony default export */ var _unused_webpack_default_export = ("/_next/static/media/astromech.2f4f9db9521a0da1df70e231af6f5127.jpg");
-
-/***/ }),
-
 /***/ "xk/1":
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./introducing-verses/index.mdx": "/6+b"
+	"./110720-hello-world/index.mdx": "PaVW",
+	"./110820-figma-variants/index.mdx": "2xIF"
 };
 
 

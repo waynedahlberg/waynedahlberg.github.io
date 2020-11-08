@@ -4,14 +4,24 @@
         <description><![CDATA[Blog – Wayne Dahlberg]]></description>
         <link>https://wayne.work/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 07 Nov 2020 06:08:22 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 08 Nov 2020 04:25:13 GMT</lastBuildDate>
         <atom:link href="https://wayne.work/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[Introducing Verses]]></title>
-            <description><![CDATA[A beautifully designed reading companion app for The Book of Mormon. ]]></description>
-            <link>https://wayne.work/introducing-verses</link>
-            <guid isPermaLink="false">/introducing-verses</guid>
-            <pubDate>Wed, 04 Nov 2020 14:24:00 GMT</pubDate>
+            <title><![CDATA[Figma Variants]]></title>
+            <description><![CDATA[Designing extensible components in Figma is fun!]]></description>
+            <link>https://wayne.work/110820-figma-variants</link>
+            <guid isPermaLink="false">/110820-figma-variants</guid>
+            <pubDate>Sun, 08 Nov 2020 12:00:00 GMT</pubDate>
+            <author>
+                <name>Wayne Dahlberg</name>
+            </author>
+        </item>
+        <item>
+            <title><![CDATA[Hello World 👋]]></title>
+            <description><![CDATA[This is the first post of my blog.]]></description>
+            <link>https://wayne.work/110720-hello-world</link>
+            <guid isPermaLink="false">/110720-hello-world</guid>
+            <pubDate>Sat, 07 Nov 2020 19:00:00 GMT</pubDate>
             <author>
                 <name>Wayne Dahlberg</name>
             </author>

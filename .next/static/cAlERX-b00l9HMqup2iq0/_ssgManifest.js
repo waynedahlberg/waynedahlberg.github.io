@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002F.introducing-verses","\u002F110720-hello-world","\u002F110820-figma-variants"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
