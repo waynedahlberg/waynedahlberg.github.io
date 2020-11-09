@@ -1,0 +1,176 @@
+import { waynedahlberg } from "@/authors";
+import image01 from "./swiftui-basics-01.jpg";
+import image02 from "./swiftui-basics-02.jpg";
+import image03 from "./swiftui-basics-03.jpg";
+import image04 from "./swiftui-basics-04.jpg";
+import image05 from "./swiftui-basics-05.jpg";
+import image06 from "./swiftui-basics-06.jpg";
+import image07 from "./swiftui-basics-07.jpg";
+
+export const meta = {
+  title: `SwiftUI Basics`,
+  description: `The basics of the SwiftUI layout framework.`,
+  date: "2020-11-08T12:00:00.000Z",
+  authors: [waynedahlberg],
+  discussion: "https://github.com/tailwindlabs/tailwindcss/discussions/2511",
+};
+
+[Apple](https://developer.apple.com/tutorials/swiftui?ref=madewithvuejs.com) describes SwiftUI is a modern way to declare user interfaces for any Apple platform. Unlike imperative UI layout tools like Interface Builder and Auto Layout, the declarative nature of SwiftUI Views allows developers to concentrate on composition and state.
+
+<!--more-->
+
+<div class="rounded-md bg-blue-50 p-4">
+  <div class="flex">
+    <div class="flex-shrink-0">
+      <svg
+        class="h-5 w-5 text-blue-400"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+      >
+        <path
+          fillRule="evenodd"
+          d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
+          clipRule="evenodd"
+        />
+      </svg>
+    </div>
+    <div class="ml-3 flex-1 md:flex md:justify-between">
+      <p class="text-sm leading-5 text-blue-700">
+        This is a another post in a series intended as a personal growth
+        exercise. As I learn and digest new things, I want to write about them
+        to solidify my understanding.
+      </p>
+      <p class="mt-3 text-sm leading-5 md:mt-0 md:ml-6">
+        <a
+          href="https://fs.blog/2015/01/richard-feynman-knowing-something/"
+          class="whitespace-no-wrap font-medium text-blue-700 hover:text-blue-600 transition ease-in-out duration-150"
+        >
+          Feynman &rarr;
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+
+### Views
+
+SwiftUI Views are structures that conform to the `View` protocol, which requires a computed property called `body` that holds the layout and hierarchy of the view. SwiftUI files can also contain an additional structure that declares the `PreviewProvider` for that view. The preview is useful for viewing live in Xcode and is ignored at compile time. In this example, the view contains a single `Text()` view with a `.padding()` modifer applied.
+
+```Swift
+struct ContentView: View {
+    var body: some View {
+        Text("Hello, world!")
+            .padding()
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+          .previewLayout(.fixed(width: 300, height: 200))
+    }
+}
+```
+
+<img src={image01} alt="basic views" />
+
+### View Modifiers
+
+Using view modifiers, you can change the appearance of your views. Changing the text font with `.font()`, changing the background color with `.background()` and alter the `.padding()` and corner radius of the view. These are just a few of the built-in modifiers in SwiftUI.
+
+```Swift
+struct ContentView: View {
+    var body: some View {
+        Text("Hello, world!")
+            .foregroundColor(.blue)
+            .fontWeight(.bold)
+            .padding()
+            .background(Color.black.opacity(0.05))
+            .cornerRadius(17)
+    }
+}
+```
+
+<img src={image02} alt="modifiers" />
+
+It is possible to create our own view modifiers in SwiftUI using a `ViewModifier`, but that's a topic for another post.
+
+### Lists
+
+We've seen an example of a text element above, but what about a list of text views? Let's create an array and iterate over it and display the results in a `List` view.
+
+```Swift
+struct ContentView: View {
+    let fruits = ["pineapple", "raspberry", "mango", "cherry"]
+    var body: some View {
+      List(fruits, id: \.hashValue) { fruit in
+        Text(fruit)
+      }
+    }
+}
+```
+
+<img src={image03} alt="simple lists" />
+
+### Navigation
+
+In UIKit, `UINavigationController` is used to push and pop views off the presentation layer. In SwiftUI, `NavigationView` handles this functionality with a `destination` parameter.
+
+```Swift
+struct ContentView: View {
+    let fruits = ["One", "Two", "Three"]
+    var body: some View {
+      NavigationView {
+        List(fruits, id: \.hashValue) { fruit in
+          NavigationLink(destination:
+                          VStack {
+                            Text("Second view")
+                            Spacer()
+                          }) {
+            Text("List item")
+          }
+        }
+        .navigationBarTitle("Navigation View")
+      }
+    }
+}
+```
+
+<img src={image04} alt="navigation view" />
+<img src={image05} alt="destination view" />
+
+### State
+
+One of the big shifts in logic with SwiftUI is how views handle state, or changes to their properties and data. SwiftUI views are a function of state. When a user interacts with a view, state can be changed. When state or data is changed, the entire view hierarchy is re-rendered, reflecting the new state of the application's data.
+
+SwiftUI needs a way to know if a property can be changed, and if so, broadcast those changes up the view chain. This is done with the `@State` property wrapper.
+
+```Swift
+struct ContentView: View {
+  @State private var username: String = ""
+
+  var body: some View {
+    VStack {
+      Text(username)
+      TextField("username", text: $username).multilineTextAlignment(.center)
+    }
+  }
+}
+```
+
+In the example above, the `@State` property wrapper will notify the parent view of any changes. To represent the State property within a view's parameters, `$` is used as a prefix to the variable name. Whatever the user types into the textfield, the `Text` element above will display the exact data.
+
+<img src={image06} alt="navigation view" />
+<img src={image07} alt="destination view" />
+
+### Conclusion
+
+SwiftUI brings with it a world of possiblities for developers of any experience. It's approachable for newcomers, and fairly complex for those looking to dive into this new declarative framework.
+
+This just a light sampling of the first things I learned last year when SwiftUI was announced at WWDC 2019. Many more posts to come on the subject.
+
+### Resources
+
+- Apple's official [SwiftUI tutorial](https://developer.apple.com/tutorials/swiftui/).
+- Hacking With Swift - [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui).
