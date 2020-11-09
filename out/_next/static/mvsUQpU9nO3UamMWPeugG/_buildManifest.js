@@ -1,1 +1,0 @@
-self.__BUILD_MANIFEST = (function(a){return {"/":[a],"/.introducing-verses":[a],"/110220-hello-world":[a],"/110520-figma-variants":[a],"/110720-swift-types":[a],"/index":[a]}}("static\u002Fchunks\u002F21fb54ff51d7f1197126585d3d33a9736d5d5ec0.e0365d641346d22b6eb3.js"));self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
