@@ -52,7 +52,7 @@ export default function Projects() {
                             R2-D2 Astromech
                         </h3>
                         <p className="mt-3 text-base leading-6 text-gray-500">
-                            A journey to build a full-size, all-aluminum, autonomous replica of the movie prop. Bleep bloop.
+                            A journey to build a full-size, autonomous, aluminum replica of the movie prop. Bleep bloop.
                         </p>
                         </a>
                     </div>
@@ -93,7 +93,7 @@ export default function Projects() {
                             SwiftUI &amp; Combine
                         </h3>
                         <p className="mt-3 text-base leading-6 text-gray-500">
-                            Adventures, successes and failures in learning the new frameworks from Apple.
+                            Adventures, successes and failures learning the new frameworks from Apple.
                         </p>
                         </a>
                     </div>
@@ -132,7 +132,7 @@ export default function Projects() {
                             Modern Design Systems
                         </h3>
                         <p className="mt-3 text-base leading-6 text-gray-500">
-                            Reflections on building design systems in Figma from zero to hero.
+                            Thoughts and experiments building design systems in Figma.
                         </p>
                         </a>
                     </div>
