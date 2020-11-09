@@ -4,7 +4,7 @@
 
     export default function About() {
         return (
-            <div className="divide-y divide-gray-200">
+            <div className="pb-8">
                 <Head>
                     <meta name="twitter:card" content="summary_large_image" />
                     <meta name="twitter:site" content="@waynedahlberg" />
@@ -27,29 +27,26 @@
                         BIO
                     </p>
                 </div>
-                
-                <div class="text-lg leading-7 pt-8">
-                    <p className="text-base font-semibold leading-7 text-gray-500">
-                        Hello there&nbsp; 👋
-                    </p>
 
-                    <p class="text-gray-500 pb-4 pt-4">Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
 
-                    <p class="text-gray-500 pb-4">Donec sed odio dui. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur.</p>
-
-                    <p class="text-gray-500 pb-8">Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vestibulum id ligula porta felis euismod semper. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-                </div>
-
-                <div class="space-y-8">
-                    <div class="relative pb-2/3">
-                        <img class="absolute object-cover h-full w-full shadow-lg rounded-lg" src={avatar} alt="" />
+                <div class="space-y-4 sm:grid sm:grid-cols-3 sm:gap-6 sm:space-y-0 lg:gap-8">
+                    <div class="relative h-0 pb-2/3 sm:pt-2/3">
+                        <img class="absolute inset-0 object-cover h-full w-full shadow-lg rounded-lg" src={avatar} alt="profile-image" />
                     </div>
-                <div class="text-lg leading-6 font-medium space-y-1">
-                        <h4>Wayne Dahlberg</h4>
-                        <p class="text-gray-500">Sr. Product Designer at <a href="https://chatbooks.com" className="text-teal-400 font-semibold hover:underline">Chatbooks&nbsp;↗</a>
-                        </p>
+                    <div class="sm:col-span-2">
+                        <div class="space-y-4">
+                            <div class="text-lg leading-6 font-medium space-y-1">
+                                <h4>Wayne Dahlberg</h4>
+                                <p className="text-sm text-gray-400 pb-6">UTAH, USA</p>
+                                <p class="text-teal-400">Sr. Product Designer at <a href="https://chatbooks.com" className="text-teal-400 hover:underline">Chatbooks↗</a></p>
+                            </div>
+                            <div class="text-lg leading-7">
+                                <p class="text-gray-500">Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
+
         </div>
     )
 }
