@@ -4,8 +4,18 @@
         <description><![CDATA[Blog – Wayne Dahlberg]]></description>
         <link>https://wayne.work/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 09 Nov 2020 06:53:32 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 09 Nov 2020 21:47:39 GMT</lastBuildDate>
         <atom:link href="https://wayne.work/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Swift Access Control]]></title>
+            <description><![CDATA[The basics of Swift Access Control.]]></description>
+            <link>https://wayne.work/110920-swift-access-control</link>
+            <guid isPermaLink="false">/110920-swift-access-control</guid>
+            <pubDate>Mon, 09 Nov 2020 16:00:00 GMT</pubDate>
+            <author>
+                <name>Wayne Dahlberg</name>
+            </author>
+        </item>
         <item>
             <title><![CDATA[Swift Generics]]></title>
             <description><![CDATA[The basics of Swift Generics.]]></description>
@@ -17,7 +27,7 @@
             </author>
         </item>
         <item>
-            <title><![CDATA[Swift Generics]]></title>
+            <title><![CDATA[Swift Enumerations]]></title>
             <description><![CDATA[The basics of Swift Enumerations.]]></description>
             <link>https://wayne.work/110920-swift-enumerations</link>
             <guid isPermaLink="false">/110920-swift-enumerations</guid>

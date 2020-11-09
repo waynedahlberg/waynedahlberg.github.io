@@ -1,0 +1,135 @@
+import { waynedahlberg } from "@/authors";
+
+export const meta = {
+  title: `Swift Access Control`,
+  description: `The basics of Swift Access Control.`,
+  date: "2020-11-09T16:00:00.000Z",
+  authors: [waynedahlberg],
+  discussion: "https://github.com/tailwindlabs/tailwindcss/discussions/2511",
+};
+
+When writing stuctures, class and functions you need to let other code or even other developers know what is available and what is not. This is done by access control prefixing with `public`, `open`, `internal`, `private`, and `fileprivate`. Access control is another foundational concept that eluded me for years while learning the Swift language.
+
+<!--more-->
+
+<div class="rounded-md bg-blue-50 p-4">
+  <div class="flex">
+    <div class="flex-shrink-0">
+      <svg
+        className="h-5 w-5 text-blue-400"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+      >
+        <path
+          fillRule="evenodd"
+          d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
+          clipRule="evenodd"
+        />
+      </svg>
+    </div>
+    <div class="ml-3 flex-1 md:flex md:justify-between">
+      <p class="text-sm leading-5 text-blue-700">
+        This is a another post in a series intended as a personal growth
+        exercise. As I learn and digest new things, I want to write about them
+        to solidify my understanding.
+      </p>
+      <p class="mt-3 text-sm leading-5 md:mt-0 md:ml-6">
+        <a
+          href="https://fs.blog/2015/01/richard-feynman-knowing-something/"
+          class="whitespace-no-wrap font-medium text-blue-700 hover:text-blue-600 transition ease-in-out duration-150"
+        >
+          Feynman &rarr;
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+
+These features can restrict team members from accessing, extending or overriding the original implementation of some code. It's very useful when creating a framework or library that is intended to be shared openly among a developer community.
+
+Let's look at `module`; an individual unit of code distribution, e.g. your app.
+
+`open` and `public` are used to declare code accessibility across different modules.
+
+`internal`, `fileprivate` and `private` are used at the Swift file level.
+
+### `private`
+
+```Swift
+// Foo.swift
+struct FooStruct {
+	private let privateStr = "privateStr"
+
+	func fooPrintFunc() {
+		print("\(privateStr)")
+	}
+}
+
+struct FooStructOne {
+	var fooStruct = FooStruct() {
+		didSet {
+			fooStruct.privateStr
+		}
+	}
+}
+
+// Bar.swift
+extension FooStruct {
+	func fooFunc() {
+		print("\(privateStr)")
+	}
+}
+```
+
+Given the example above, `FooStructOne` tries to access the setter of `FooStruct` private property, but cannot because of `private` access control. Similarly, the `FooStruct` extension in `Bar.swift` cannot extend and print `privateStr` in `Foo.swift` because `FooStruct` is not contained in the same Swift file.
+
+`private` means declared code such as `class`, `struct`, `enum`, `property` and `method` can only be accessed withing the current scope and enclosed type. Only extensions within the same Swift file can access `private` declared code.
+
+The scope of `extension` can only access those private properties when they are declared in the same file of the extended, declared code (`class`, `struct`, `enum`, property, or method, etc.).
+
+### `fileprivate`
+
+```Swift
+struct FooStruct {
+	private let privateStr = "privateStr"
+}
+
+extension FooStruct {
+	func fooFunc() {
+		print("\(privateStr)")
+	}
+}
+```
+
+Each Swift file can contain classes, structs, enums, etc. `fileprivate` means the code can only be accessible within the same Swift file.
+
+### `internal`
+
+is the default access control in the Swift language. Marking declared code as `internal` means it can be accessed within the same module (app) freely. Developers can even subclass, extend, and override classes, structs, properties and methods.
+
+### `public`
+
+Marking declared code as `public` means that it can be accessed across different modules and files, but it _cannot_ be subclassed. A good example is the `init` function of a class in order to prevent abnormal initialization made by other developers.
+
+### `open`
+
+The most unrestricted access control level. All `open` declared code can be accessed and subclassed with no restriction _among modules_. The `open` function and properties within the class can even be overriden.
+
+For example, `UICollectionView` is an `open` class in that developers can create a custom `UICollectionView`.
+
+## Summary
+
+Access Control provides a great tool for developers to restrict access rights of declared code. It is useful when you are developing and SDK or API for other developers to implement. They include:
+
+1. `private` - Most restricted. Properties can only be accessed within the current enclosing type.
+2. `fileprivate` - Can only be accessed within the same file
+3. `internal` - This is the default access control and can be accessed within the same module freely.
+4. `public` - Class can be accessed across different modules (app module and 3rd party library) but cannot be subclassed and its content cannot be overridden.
+5. `open` - The most unrestricted access control and other developers can subclass it and override those open properties.
+
+In order to develop a safe and stable app, it is recommended to consider private first, and then think twice before loosening up the access control.
+
+## Reference
+
+[Apple Documentation - Access Control in the Swift Language](https://docs.swift.org/swift-book/LanguageGuide/AccessControl.html)
