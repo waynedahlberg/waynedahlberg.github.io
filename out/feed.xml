@@ -4,8 +4,28 @@
         <description><![CDATA[Blog – Wayne Dahlberg]]></description>
         <link>https://wayne.work/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 09 Nov 2020 04:32:20 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 09 Nov 2020 06:53:32 GMT</lastBuildDate>
         <atom:link href="https://wayne.work/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Swift Generics]]></title>
+            <description><![CDATA[The basics of Swift Generics.]]></description>
+            <link>https://wayne.work/110920-swift-generics</link>
+            <guid isPermaLink="false">/110920-swift-generics</guid>
+            <pubDate>Mon, 09 Nov 2020 14:00:00 GMT</pubDate>
+            <author>
+                <name>Wayne Dahlberg</name>
+            </author>
+        </item>
+        <item>
+            <title><![CDATA[Swift Generics]]></title>
+            <description><![CDATA[The basics of Swift Enumerations.]]></description>
+            <link>https://wayne.work/110920-swift-enumerations</link>
+            <guid isPermaLink="false">/110920-swift-enumerations</guid>
+            <pubDate>Mon, 09 Nov 2020 12:00:00 GMT</pubDate>
+            <author>
+                <name>Wayne Dahlberg</name>
+            </author>
+        </item>
         <item>
             <title><![CDATA[SwiftUI Basics]]></title>
             <description><![CDATA[The basics of the SwiftUI layout framework.]]></description>

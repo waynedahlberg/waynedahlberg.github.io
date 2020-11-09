@@ -1,0 +1,149 @@
+import { waynedahlberg } from "@/authors";
+
+export const meta = {
+  title: `Swift Generics`,
+  description: `The basics of Swift Enumerations.`,
+  date: "2020-11-09T12:00:00.000Z",
+  authors: [waynedahlberg],
+  discussion: "https://github.com/tailwindlabs/tailwindcss/discussions/2511",
+};
+
+An enumeration defines a common type for a group of related values and enables you to work with those values in a type-safe way within your code.
+
+<!--more-->
+
+- _Creating an enum:_ You can declare an enum like this in swift
+
+```Swift
+enum TimePeriod {
+	case morning
+	case noon
+	case afternoon
+	case night
+}
+```
+
+The name of this enum is "TimePeriod" and it has four cases: `morning`, `noon`, `afternoon`, and `night`.
+
+Enumerations, or `enum`s can also be declared in a single line, like this:
+
+```Swift
+enum TimePeriod {
+	case morning, noon, afternoon, night
+}
+```
+
+- _enum type:_ When we define an enum, it defines itself as a new type in Swift. New variables of that type can be declared like this:
+
+```Swift
+var presentTime = TimePeriod.morning
+print(presentType) // morning
+```
+
+`presentTime` variable is of type `TimePeriod`, and we can set the value using the `.` operation.
+
+```Swift
+presentTime = .noon
+presentTime = .afternoon
+presentTime = .night
+```
+
+- _Matching enum value:_ The Swift `switch` statement is a simple and straightforward solution for matching the enum value.
+
+```Swift
+switch presentTime {
+	case .morning:
+		print("Foggy morning")
+	case .noon:
+		print("Sunny noon")
+	case .afternoon:
+		print("Cloudy afternoon")
+	case .night:
+		print("Rainy night")
+}
+```
+
+- _Iterate enum cases:_ To iterator over the cases in an enumeration, we declare it with the `CaseIterable` type.
+
+```Swift
+enum TimePeriod: CaseIterable {
+	case morning
+	case noon
+	case afternoon
+	case night
+}
+```
+
+Now we can iterate over all the cases.
+
+```Swift
+let numberOfChoices = TimePeriod.allCases.count
+print("\(numberOfChoices) choices available")
+
+for timeperiod in TimePeriod.allCases {
+	print(timeperiod)
+}
+```
+
+- _Raw value:_ Each case can provide a `rawValue`. It can be implicit and explicit. We must provide the type in the declaration of the enumeration.
+
+```Swift
+enum Institute: Int {
+	case school
+	case college
+	case university
+}
+```
+
+`Institute` will be of `Int` type raw value for every case. It can be any type in Swift. In this case the value for `school` is 0, and so on.
+
+Raw values for every case can be checked like this:
+
+```Swift
+print(Institute.school.rawValue) 			// 0
+print(Institute.college.rawValue)			// 1
+print(Institute.university.rawValue)		// 2
+```
+
+You can also provide explicit raw values for every case if you want.
+
+```Swift
+enum Institute: Int {
+	case school = 10
+	case college = 12
+	case university = 14
+|
+```
+
+- _Associate values with enum cases:_ Sometimes you want to set values with cases. We can also assign tuple values for cases as that enum type. Here we define a variable `sampleArea` as an enum with a value of `Area.square` with an associated tuple value of 10 and 15.
+
+```Swift
+enum Area {
+	case square(Double, Double)
+	case cube(Double, Double, Double)
+}
+
+var sampleArea = Area.square(10, 15)
+```
+
+Here we can match the enum value with a switch statement. This time we have some assocated values with every enum case. Those values can be extracted as variables or constants for use inside the switch statment.
+
+```Swift
+switch sampleArea {
+	case .square(let height, let width):
+		print("Square of: \(height), \(width).")
+	case .cube(let height, let width, let length):
+		print("Square of: \(height), \(width), \(length)")
+}
+```
+
+If associated values are constant or variable, we can simply place `var` or `let` before the case name.
+
+```Swift
+switch sampleArea {
+	case let .square(height, width):
+		print("Square of: \(height), \(width).")
+	case let cube(height, width, length):
+		print("Square of: \(height), \(width), \(length)")
+}
+```

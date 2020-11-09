@@ -1,0 +1,53 @@
+import { waynedahlberg } from "@/authors";
+
+export const meta = {
+  title: `Swift Generics`,
+  description: `The basics of Swift Generics.`,
+  date: "2020-11-09T14:00:00.000Z",
+  authors: [waynedahlberg],
+  discussion: "https://github.com/tailwindlabs/tailwindcss/discussions/2511",
+};
+
+Generics are one thing that completely escaped me as I started learning Swift. Turns out they are one of the most powerful features in the entire Swift Language. Generics allow you to write flexible, reusable functions by writing code that is independent of Types.
+
+<!--more-->
+
+- _Intro to Generics:_ Let's say we have a function that takes two numbers, and gives you a sum in return.
+
+```Swift
+func addIntNumbers(num1: Int, num2: Int) -> Int {
+	return num1 + num2
+}
+
+let result = addIntNumbers(num1: 10, num2: 20) // 30
+```
+
+Let's say we want to add some more numbers, this time of type `Double`.
+
+```Swift
+func addDoubleNumbers(num1: Double, num2: Double) -> Double {
+	let result2 = addDoubleNumbers(num1: 13.75, num2: 20) // 33.75
+}
+```
+
+For a single operation of adding two numbers, we have to use two different functions for using different types. Other than the types, everything else is identical.
+
+Generics can work with any type and can come in handy for reusable functions. We can define a function by defining the protocol type.
+
+```Swift
+func addNumbers<T: Numeric>(a: T, b: T) -> T {
+	return a + b
+}
+```
+
+In the above example, `T` is a numeric type so we can pass in any numeric Type as an argument when calling this function. One caveat is that the values need to be of the same Type.
+
+```Swift
+// Int type argument
+let value1 = addNumbers(a: 10, b: 20) // 30
+
+// Double type argument
+let value2 = addNumbers(a: 10.5, b: 20.4) // 30.9
+```
+
+This is the most basic and main raeson for using generics but surely we can do more.
