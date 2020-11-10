@@ -1,0 +1,118 @@
+import { waynedahlberg } from "@/authors";
+import image01 from "./marble-merge.jpg";
+import image02 from "./combine-marble-map.jpg";
+
+export const meta = {
+  title: `What is Combine?`,
+  description: `An Introduction to Combine.`,
+  date: "2020-11-10T14:00:00.000Z",
+  authors: [waynedahlberg],
+  discussion: "https://github.com/tailwindlabs/tailwindcss/discussions/2511",
+};
+
+<span className="text-gray-200 text-6xl font-extrabold">***DRAFT***</span>
+
+Combine is the new reactive programming framework from [Apple](https://developer.apple.com/documentation/combine). Like SwiftUI (which it pairs beautifully with), Combine is declarative. It provides tools for managing streams of your app's events over time, and _react_ accordingly. Because it has the blessing of Apple, you know it's here to stay.
+
+> The Combine framework provides a declarative Swift API for processing values over time.
+>
+> <cite>Apple Documentation</cite>
+
+<!--more-->
+
+<div class="rounded-md bg-blue-50 p-4">
+  <div class="flex">
+    <div class="flex-shrink-0">
+      <svg
+        class="h-5 w-5 text-blue-400"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+      >
+        <path
+          fillRule="evenodd"
+          d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
+          clipRule="evenodd"
+        />
+      </svg>
+    </div>
+    <div class="ml-3 flex-1 md:flex md:justify-between">
+      <p class="text-sm leading-5 text-blue-700">
+        This is a another post in a series intended as a personal growth
+        exercise. As I learn and digest new things, it's productive to write
+        about them to solidify my understanding.
+      </p>
+      <p class="mt-3 text-sm leading-5 md:mt-0 md:ml-6">
+        <a
+          href="https://fs.blog/2015/01/richard-feynman-knowing-something/"
+          class="whitespace-no-wrap font-medium text-blue-700 hover:text-blue-600 transition ease-in-out duration-150"
+        >
+          Feynman &rarr;
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+
+Traditional imperative programming relies on many patterns for passing information between objects and processing multi-threaded event sequences. These patterns include delegates and callbacks, blocks, target-action relationships, key-value observing and dispatch queues just to name a few.
+
+These patterns (any many more) are tried and true in application development. However, as code reaches a certain level of complexity, or involves multiple delegates and asynchronous threads — the likleyhood of bugs increases by orders of magnitude. These environments can make the exact state of your data total guesswork. This can lead to whack-a-mole scenarios, placing endless breakpoints in your code to deduce the flow of data over time.
+
+Combine operates above these traditional approaches to managing changing state in data flow. It uses functional reactive programming as first-class principles. Since it operates on multiple streams of data over time, it's built from the ground up for asynchronous programming — thus eliminating entire categories of software bugs and exhaustive error handling.
+
+From what I've explored, Combine is not a all-or-nothing decision. It doesn't wholly replace imperative approaches, but rather augments them. You can determine where and when Combine makes sense in your situation. Use it to your advantage when faced with common tasks like networking and notifications.
+
+### Imperative approach
+
+Here we assign the value of a quantity of photos in an album to the text property of a label. This is how we would update the UI to show the state of the model.
+
+```Swift
+imageCountLabel.text = album.quantity(for: photo)
+```
+
+Although only one line of code, we now have to set up and manage a way to observe the changes in the model and update the UI, and vice-versa if considering user input.
+
+### Declarative approach
+
+The relationship between the label and the model is assigned, or _declared_, instead of triggered by an event.
+
+```Swift
+album.quantityPublisher(for: photo)
+  .assign(to: \.text, on: imageCountLabel)
+```
+
+Any time the quantity of the album publisher changes, the value of the `imageCountLabel` changes. Once this relationship is established, it will persist. This allows the complexity of multiple streams of data to be greatly simplified. All data in a stream, regardless of origin, lifespan, length, or type are treated the same.
+
+In an imperative approach, the more complexity you add, the more you open yourself up to bugs and unexpected behavior. With a declarative approach, data is easily transformed into an expected result, and managing its state over time becomes easier to understand and reason about.
+
+### Publisher, Operators & Subscribers
+
+To successfully use Combine, you need a few things first:
+
+- **Publishers** expose values that can change over time. The `Publisher` protocol declares a _type_ that delivers values over time.
+- Publishers have **Operators** to act on the values received from the upstream publishers, transform (if necessary), and republish them.
+- Finally, after the entire chain of operators, a **Subscriber** acts on elements as it receives them. Publishers only emit values when explicitly requested do so by subscribers. Without a subscriber, a publisher will never emit values. This puts your subscriber in control of how fast it receives events from its upstream publishers.
+
+Various Foundation types support Combine out of the box through publishers like `Timer`, `NotificationCenter` and `URLSession`. If you're using key-value observing, Combine provides a default publisher for any KVO compliant property.
+
+To get access to the data you need, it's trivial to chain together multiple publishers and coordinate their interaction. You can subscribe to updates from a `TextField` publisher and use them to perform a `URLRequest`. You could then use another publisher to process the responses from the request and use them to update your app.
+
+By _combining_ all your event driven processes, your code will become easier to read and reason about. No longer are you relegated to the bug-ridden complexity of nested closure callbacks and indeterminate application state.
+
+### Marble Diagrams
+
+Marble diagrams are interactive diagrams that depict how reactive operators work with observable sequences. Let's look at some operators.
+
+### `.map()`
+
+Consider a stream of values `[1, 2, 3]` with an opeartor of `map { $0 * $0 }`:
+
+<img src={image02} alt="Marble diagram - Map" />
+
+The top line is the _upstream publisher_.
+
+The middle container is the _operator_ that transforms values of the upstream publisher.
+
+The bottom line is a _publisher_ of new values, output from the _operator_.
+
+Get to know the common operators. They are your secret weapons. The more you are familiar with, the better you're able to transform streams of data into the results you're looking for.

@@ -4,8 +4,18 @@
         <description><![CDATA[Blog – Wayne Dahlberg]]></description>
         <link>https://wayne.work/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 09 Nov 2020 22:23:24 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Nov 2020 06:44:33 GMT</lastBuildDate>
         <atom:link href="https://wayne.work/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[What is Combine?]]></title>
+            <description><![CDATA[An Introduction to Combine.]]></description>
+            <link>https://wayne.work/111020-what-is-combine</link>
+            <guid isPermaLink="false">/111020-what-is-combine</guid>
+            <pubDate>Tue, 10 Nov 2020 14:00:00 GMT</pubDate>
+            <author>
+                <name>Wayne Dahlberg</name>
+            </author>
+        </item>
         <item>
             <title><![CDATA[Swift Access Control]]></title>
             <description><![CDATA[The basics of Swift Access Control.]]></description>

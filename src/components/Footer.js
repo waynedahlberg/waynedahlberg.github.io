@@ -38,7 +38,7 @@ export default function Footer() {
             </div>
             <div className="mt-8 md:mt-0 md:order-1">
             <p className="text-center text-xs leading-6 text-gray-400">
-                &copy; 2020 Wayne Dahlberg. All rights reserved.
+                &copy; 2020 WKD. All rights reserved.
             </p>
             </div>
         </div>

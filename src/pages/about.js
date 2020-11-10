@@ -38,7 +38,7 @@
                             <div class="text-lg leading-6 font-medium space-y-1">
                                 <h4>Wayne Dahlberg</h4>
                                 <p className="text-sm text-gray-400 pb-6">UTAH, USA</p>
-                                <p class="text-teal-400">Sr. Product Designer at <a href="https://chatbooks.com" className="text-teal-400 hover:underline">Chatbooks↗</a></p>
+                                <p class="text-teal-400">Product Design at <a href="https://chatbooks.com" className="text-teal-400 hover:underline">Chatbooks↗</a></p>
                             </div>
                             <div class="text-lg leading-7">
                                 <p class="text-gray-500">Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.</p>
