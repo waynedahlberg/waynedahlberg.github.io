@@ -1,6 +1,11 @@
 import { waynedahlberg } from "@/authors";
-import image01 from "./marble-merge.jpg";
+import image01 from "./combine-marble-merge.jpg";
 import image02 from "./combine-marble-map.jpg";
+import image03 from "./combine-marble-first.jpg";
+import image04 from "./combine-marble-last.jpg";
+import image05 from "./combine-marble-count.jpg";
+import image06 from "./combine-marble-debounce.jpg";
+import image07 from "./combine-marble-zip.jpg";
 
 export const meta = {
   title: `What is Combine?`,
@@ -116,3 +121,53 @@ The middle container is the _operator_ that transforms values of the upstream pu
 The bottom line is a _publisher_ of new values, output from the _operator_.
 
 Get to know the common operators. They are your secret weapons. The more you are familiar with, the better you're able to transform streams of data into the results you're looking for.
+
+### `.merge()`
+
+The `.merge()` operator needs _two_ upstream publishers that emit values of the same type. The error types also have to be the same.
+
+<img src={image01} alt="Marble diagram - Merge" />
+
+### `.first()`
+
+This one is pretty self explanitory. After the first value is emitted, a completion event is emitted and sent down to the subscriber.
+
+<img src={image03} alt="Marble diagram - First" />
+
+### `.last()`
+
+Very similar to `.first()`, but has one caveat. It is dependent on receiving a completion event from the upstream publisher to know that the sequence has finished, and to return the last emitted value. See how the output value is inline with the completion event in the upstream publisher.
+
+<img src={image04} alt="Marble diagram - Last" />
+
+### `.debounce()`
+
+In electrical engineering, when a switch opens and closes, the switch contacts can bounce off each other before the switch completely transitions to an on or off state. The bouncing action can produce transient signals that do not represent a true change in state. When reproducing switch logic, it's important to filter out transient signals by using _debounce_, which adds the element of _time_ to the equation.
+
+A time value is emitted if (0) isn't emitted immediately. If (1) is emitted with the time threshold (x \* 10), the emitted value is now re-calculated and (1) appears shortly later in the downstream publisher.
+
+<img src={image06} alt="Marble diagram - Debounce" />
+
+`.debounce()` is great for returning live results. It can rate-limit the number of API calls between typed letters in input fields. It can provide a better experience when displaying search results when it's best for the user to expect them. This is a first-class operator in Combine.
+
+### `.count()`
+
+`.count()` is another operator that emits after receiving an upstream completion event. Once that event is received, it gives a count of how many of the upstream values satisfy the criteria given, in this case, `x > 10`. Three values in the upstream publisher are greater than 10, so our result is `3`.
+
+<img src={image05} alt="Marble diagram - Count" />
+
+### `.zip()`
+
+`.zip()` is a more complicated operator, but it is still first-class. It pairs elements of two streams together. Once it receives a matched pair, it emits the combined pair downstream. It will wait until it can emit a valid pair, even if it receives multiple values on a single stream. It keeps track of the order they were received. Once another comes along to satisfy the pair, it emits that pair downstream and keeps going until it receives a completion event from the upstream publisher. Any and all unpaired values are discarded.
+
+Paris can be the same or different types. This is because the result of the operator creates a new compound type from both types. Strings and Ints, Floats and Doubles.
+
+<img src={image07} alt="Marble diagram - Zip" />
+
+`.zip` could be useful if you have two API calls to make, and you only want to continue when they are both present and valid.
+
+---
+
+These are a few of the standard operators possible with Combine. There are many others to play with and discover. Some you'll find interesting, others not so much. Check out [RxMarbles.com](https://rxmarbles.com/) for a comprehensive list of reactive operators.
+
+<span className="text-gray-200 text-6xl font-extrabold">***DRAFT***</span>
