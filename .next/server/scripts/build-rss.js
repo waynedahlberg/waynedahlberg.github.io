@@ -163,6 +163,14 @@ MDXContent.isMDXComponent = true;
 
 /***/ }),
 
+/***/ "3YtM":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/hero-combine.b918357b6326bb94244361709242385a.jpg");
+
+/***/ }),
+
 /***/ "493F":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -419,6 +427,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _combine_marble_count_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__("C2Yc");
 /* harmony import */ var _combine_marble_debounce_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__("fQ/H");
 /* harmony import */ var _combine_marble_zip_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__("GhaY");
+/* harmony import */ var _hero_combine_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__("3YtM");
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -430,6 +439,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 
 
 /* @jsx mdx */
+
 
 
 
@@ -465,17 +475,16 @@ function MDXContent(_ref) {
   return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])(MDXLayout, _extends({}, layoutProps, props, {
     components: components,
     mdxType: "MDXLayout"
-  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("span", {
-    className: "text-gray-200 text-3xl font-extrabold"
-  }, "***DRAFT***"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", null, `Combine is the new reactive programming framework from `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _extends({
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("img", {
+    src: _hero_combine_jpg__WEBPACK_IMPORTED_MODULE_10__[/* default */ "a"],
+    alt: "What is Combine? Apple's reactive programming framework."
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", null, `Combine is the new reactive programming framework from `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _extends({
     parentName: "p"
   }, {
     "href": "https://developer.apple.com/documentation/combine"
   }), `Apple`), `. Like SwiftUI (which it pairs beautifully with), Combine is declarative. It provides tools for managing streams of your app's events over time, and `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("em", {
     parentName: "p"
-  }, `react`), ` accordingly. Because it has the blessing of Apple, you know it's here to stay.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("blockquote", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
-    parentName: "blockquote"
-  }, `The Combine framework provides a declarative Swift API for processing values over time.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("cite", null, "Apple Documentation")));
+  }, `react`), ` accordingly. Because it has the blessing of Apple, you know it's here to stay.`));
 }
 ;
 MDXContent.isMDXComponent = true;

@@ -779,7 +779,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(f
 
 /***/ }),
 
-/***/ 2:
+/***/ 4:
 /*!********************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fstore&absolutePagePath=%2FUsers%2Fwaynedahlberg%2FBlog%2Fwaynedahlberg.github.io%2Fsrc%2Fpages%2Fstore.js ***!
   \********************************************************************************************************************************************************/
@@ -802,4 +802,4 @@ eval("module.exports = dll_5030f387d328e4415785;//# sourceURL=[module]\n//# sour
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[4,"static/runtime/webpack.js"]]]);
