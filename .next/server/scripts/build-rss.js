@@ -171,6 +171,14 @@ MDXContent.isMDXComponent = true;
 
 /***/ }),
 
+/***/ "3f0T":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/shapes.1f28e72c952e4264057dbb2a1eb25da2.jpg");
+
+/***/ }),
+
 /***/ "493F":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -384,6 +392,14 @@ MDXContent.isMDXComponent = true;
 
 /***/ }),
 
+/***/ "ObFj":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/silver-surfer.e9d87671c732146764222d2582340101.jpg");
+
+/***/ }),
+
 /***/ "SckI":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -428,6 +444,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _combine_marble_debounce_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__("fQ/H");
 /* harmony import */ var _combine_marble_zip_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__("GhaY");
 /* harmony import */ var _hero_combine_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__("3YtM");
+/* harmony import */ var _silver_surfer_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__("ObFj");
+/* harmony import */ var _shapes_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__("3f0T");
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -439,6 +457,8 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 
 
 /* @jsx mdx */
+
+
 
 
 

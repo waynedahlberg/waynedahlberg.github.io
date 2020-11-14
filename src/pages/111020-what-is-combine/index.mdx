@@ -7,6 +7,8 @@ import image05 from "./combine-marble-count.jpg";
 import image06 from "./combine-marble-debounce.jpg";
 import image07 from "./combine-marble-zip.jpg";
 import hero from "./hero-combine.jpg";
+import surfer from "./silver-surfer.jpg";
+import shapes from "./shapes.jpg";
 
 export const meta = {
   title: `What is Combine?`,
@@ -67,6 +69,11 @@ Traditional imperative programming relies on many patterns for passing informati
 
 These patterns (any many more) are tried and true in application development. However, as code reaches a certain level of complexity, or involves multiple delegates and asynchronous threads — the likleyhood of bugs increases by orders of magnitude. These environments can make the exact state of your data total guesswork. This can lead to whack-a-mole scenarios, placing endless breakpoints in your code to deduce the flow of data over time.
 
+<img
+  src={surfer}
+  alt="What is Combine? Apple's reactive programming framework."
+/>
+
 Combine operates above these traditional approaches to managing changing state in data flow. It uses functional reactive programming as first-class principles. Since it operates on multiple streams of data over time, it's built from the ground up for asynchronous programming — thus eliminating entire categories of software bugs and exhaustive error handling.
 
 From what I've explored, Combine is not a all-or-nothing decision. It doesn't wholly replace imperative approaches, but rather augments them. You can determine where and when Combine makes sense in your situation. Use it to your advantage when faced with common tasks like networking and notifications.
@@ -103,6 +110,11 @@ To successfully use Combine, you need a few things first:
 - Finally, after the entire chain of operators, a **Subscriber** acts on elements as it receives them. Publishers only emit values when explicitly requested do so by subscribers. Without a subscriber, a publisher will never emit values. This puts your subscriber in control of how fast it receives events from its upstream publishers.
 
 Various Foundation types support Combine out of the box through publishers like `Timer`, `NotificationCenter` and `URLSession`. If you're using key-value observing, Combine provides a default publisher for any KVO compliant property.
+
+<img
+  src={shapes}
+  alt="What is Combine? Apple's reactive programming framework."
+/>
 
 To get access to the data you need, it's trivial to chain together multiple publishers and coordinate their interaction. You can subscribe to updates from a `TextField` publisher and use them to perform a `URLRequest`. You could then use another publisher to process the responses from the request and use them to update your app.
 
