@@ -105,6 +105,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("c2Xn");
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _authors__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("iBhN");
+/* harmony import */ var _hero_types_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("YICZ");
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -116,6 +117,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 
 
 /* @jsx mdx */
+
 
 
 const meta = {
@@ -144,6 +146,9 @@ function MDXContent(_ref) {
   return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])(MDXLayout, _extends({}, layoutProps, props, {
     components: components,
     mdxType: "MDXLayout"
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("img", {
+    src: _hero_types_png__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],
+    alt: "Swift Generics Hero Image"
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", null, `In the Swift programming language, nearly everything is based on a named type or compound type. Named types can be assigned names when created. These include `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("em", {
     parentName: "p"
   }, `classes`), `, `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("em", {
@@ -163,14 +168,6 @@ MDXContent.isMDXComponent = true;
 
 /***/ }),
 
-/***/ "3f0T":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* unused harmony default export */ var _unused_webpack_default_export = ("/_next/static/media/shapes.1f28e72c952e4264057dbb2a1eb25da2.jpg");
-
-/***/ }),
-
 /***/ "493F":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -183,6 +180,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("c2Xn");
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _authors__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("iBhN");
+/* harmony import */ var _hero_access_control_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("NRog");
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -196,6 +194,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 /* @jsx mdx */
 
 
+
 const meta = {
   title: `Swift Access Control`,
   description: `The basics of Swift Access Control.`,
@@ -203,6 +202,10 @@ const meta = {
   authors: [_authors__WEBPACK_IMPORTED_MODULE_2__[/* waynedahlberg */ "a"]],
   discussion: "https://github.com/tailwindlabs/tailwindcss/discussions/2511"
 };
+Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("img", {
+  src: _hero_access_control_png__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],
+  alt: "Swift Access Control her image"
+});
 
 const makeShortcode = name => function MDXDefaultShortcode(props) {
   console.warn("Component " + name + " was not imported, exported, or provided by MDXProvider as global scope");
@@ -298,6 +301,14 @@ fs__WEBPACK_IMPORTED_MODULE_0___default.a.writeFileSync('./out/feed.xml', feed.x
 
 /***/ }),
 
+/***/ "E04T":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/hero-combine.5798c59090c1c14b387382005332257d.png");
+
+/***/ }),
+
 /***/ "GhaY":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -384,19 +395,19 @@ MDXContent.isMDXComponent = true;
 
 /***/ }),
 
-/***/ "ObFj":
+/***/ "NRog":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* unused harmony default export */ var _unused_webpack_default_export = ("/_next/static/media/silver-surfer.e9d87671c732146764222d2582340101.jpg");
+/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/hero-access-control.be6d63f8140b542c0a050a0bc9ebb461.png");
 
 /***/ }),
 
-/***/ "QbZa":
+/***/ "OXbV":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/hero-combine-marbles.176db294fcec71f11dca5341b8646ce3.jpg");
+/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/hero-generics.429328186761c06c72d8803ab7ab4632.png");
 
 /***/ }),
 
@@ -424,6 +435,14 @@ MDXContent.isMDXComponent = true;
 
 /***/ }),
 
+/***/ "YICZ":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/hero-types.0fd3eb31b1dfa7b2898f6ddb00ec8594.png");
+
+/***/ }),
+
 /***/ "YLsQ":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -443,9 +462,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _combine_marble_count_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__("C2Yc");
 /* harmony import */ var _combine_marble_debounce_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__("fQ/H");
 /* harmony import */ var _combine_marble_zip_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__("GhaY");
-/* harmony import */ var _hero_combine_marbles_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__("QbZa");
-/* harmony import */ var _silver_surfer_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__("ObFj");
-/* harmony import */ var _shapes_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__("3f0T");
+/* harmony import */ var _hero_combine_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__("E04T");
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -457,8 +474,6 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 
 
 /* @jsx mdx */
-
-
 
 
 
@@ -496,7 +511,7 @@ function MDXContent(_ref) {
     components: components,
     mdxType: "MDXLayout"
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("img", {
-    src: _hero_combine_marbles_jpg__WEBPACK_IMPORTED_MODULE_10__[/* default */ "a"],
+    src: _hero_combine_png__WEBPACK_IMPORTED_MODULE_10__[/* default */ "a"],
     alt: "What is Combine? Apple's reactive programming framework."
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", null, `Combine is the new reactive programming framework from `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _extends({
     parentName: "p"
@@ -508,6 +523,14 @@ function MDXContent(_ref) {
 }
 ;
 MDXContent.isMDXComponent = true;
+
+/***/ }),
+
+/***/ "YcKy":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/hero-swiftui-basics.733404de967d907e3539924bcb8f7c3e.png");
 
 /***/ }),
 
@@ -623,6 +646,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("c2Xn");
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _authors__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("iBhN");
+/* harmony import */ var _hero_generics_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("OXbV");
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -634,6 +658,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 
 
 /* @jsx mdx */
+
 
 
 const meta = {
@@ -662,10 +687,21 @@ function MDXContent(_ref) {
   return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])(MDXLayout, _extends({}, layoutProps, props, {
     components: components,
     mdxType: "MDXLayout"
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("imgs", {
+    src: _hero_generics_png__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],
+    alt: "Swift Generics Hero Image"
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", null, `Generics are one thing that completely escaped me as I started learning Swift. Turns out they are one of the most powerful features in the entire Swift Language. Generics allow you to write flexible, reusable functions by writing code that is independent of Types.`));
 }
 ;
 MDXContent.isMDXComponent = true;
+
+/***/ }),
+
+/***/ "lrPt":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/hero-enums.7bfd258be3a2cec92872da47d7fbb47c.png");
 
 /***/ }),
 
@@ -720,6 +756,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("c2Xn");
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _authors__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("iBhN");
+/* harmony import */ var _hero_enums_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("lrPt");
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -733,6 +770,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 /* @jsx mdx */
 
 
+
 const meta = {
   title: `Swift Enumerations`,
   description: `The basics of Swift Enumerations.`,
@@ -740,6 +778,10 @@ const meta = {
   authors: [_authors__WEBPACK_IMPORTED_MODULE_2__[/* waynedahlberg */ "a"]],
   discussion: "https://github.com/tailwindlabs/tailwindcss/discussions/2511"
 };
+Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("img", {
+  src: _hero_enums_png__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],
+  alt: "Swift Enumerations hero image"
+});
 
 const makeShortcode = name => function MDXDefaultShortcode(props) {
   console.warn("Component " + name + " was not imported, exported, or provided by MDXProvider as global scope");
@@ -857,6 +899,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _swiftui_basics_05_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__("ggzO");
 /* harmony import */ var _swiftui_basics_06_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__("zqH2");
 /* harmony import */ var _swiftui_basics_07_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__("njY4");
+/* harmony import */ var _hero_swiftui_basics_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__("YcKy");
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -868,6 +911,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 
 
 /* @jsx mdx */
+
 
 
 
@@ -903,6 +947,9 @@ function MDXContent(_ref) {
   return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])(MDXLayout, _extends({}, layoutProps, props, {
     components: components,
     mdxType: "MDXLayout"
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("img", {
+    src: _hero_swiftui_basics_png__WEBPACK_IMPORTED_MODULE_10__[/* default */ "a"],
+    alt: "Swiftui Basics hero image"
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _extends({
     parentName: "p"
   }, {
