@@ -163,19 +163,11 @@ MDXContent.isMDXComponent = true;
 
 /***/ }),
 
-/***/ "3YtM":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/hero-combine.b918357b6326bb94244361709242385a.jpg");
-
-/***/ }),
-
 /***/ "3f0T":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/shapes.1f28e72c952e4264057dbb2a1eb25da2.jpg");
+/* unused harmony default export */ var _unused_webpack_default_export = ("/_next/static/media/shapes.1f28e72c952e4264057dbb2a1eb25da2.jpg");
 
 /***/ }),
 
@@ -396,7 +388,15 @@ MDXContent.isMDXComponent = true;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/silver-surfer.e9d87671c732146764222d2582340101.jpg");
+/* unused harmony default export */ var _unused_webpack_default_export = ("/_next/static/media/silver-surfer.e9d87671c732146764222d2582340101.jpg");
+
+/***/ }),
+
+/***/ "QbZa":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/hero-combine-marbles.176db294fcec71f11dca5341b8646ce3.jpg");
 
 /***/ }),
 
@@ -443,7 +443,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _combine_marble_count_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__("C2Yc");
 /* harmony import */ var _combine_marble_debounce_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__("fQ/H");
 /* harmony import */ var _combine_marble_zip_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__("GhaY");
-/* harmony import */ var _hero_combine_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__("3YtM");
+/* harmony import */ var _hero_combine_marbles_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__("QbZa");
 /* harmony import */ var _silver_surfer_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__("ObFj");
 /* harmony import */ var _shapes_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__("3f0T");
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -496,7 +496,7 @@ function MDXContent(_ref) {
     components: components,
     mdxType: "MDXLayout"
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("img", {
-    src: _hero_combine_jpg__WEBPACK_IMPORTED_MODULE_10__[/* default */ "a"],
+    src: _hero_combine_marbles_jpg__WEBPACK_IMPORTED_MODULE_10__[/* default */ "a"],
     alt: "What is Combine? Apple's reactive programming framework."
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", null, `Combine is the new reactive programming framework from `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _extends({
     parentName: "p"
