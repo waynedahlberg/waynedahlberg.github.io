@@ -202,10 +202,6 @@ const meta = {
   authors: [_authors__WEBPACK_IMPORTED_MODULE_2__[/* waynedahlberg */ "a"]],
   discussion: "https://github.com/tailwindlabs/tailwindcss/discussions/2511"
 };
-Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("img", {
-  src: _hero_access_control_png__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],
-  alt: "Swift Access Control her image"
-});
 
 const makeShortcode = name => function MDXDefaultShortcode(props) {
   console.warn("Component " + name + " was not imported, exported, or provided by MDXProvider as global scope");
@@ -225,6 +221,9 @@ function MDXContent(_ref) {
   return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])(MDXLayout, _extends({}, layoutProps, props, {
     components: components,
     mdxType: "MDXLayout"
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("img", {
+    src: _hero_access_control_png__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],
+    alt: "Swift Access Control her image"
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", null, `When writing stuctures, class and functions you need to let other code or even other developers know what is available and what is not. This is done by access control prefixing with `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("inlineCode", {
     parentName: "p"
   }, `public`), `, `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("inlineCode", {
@@ -687,7 +686,7 @@ function MDXContent(_ref) {
   return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])(MDXLayout, _extends({}, layoutProps, props, {
     components: components,
     mdxType: "MDXLayout"
-  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("imgs", {
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("img", {
     src: _hero_generics_png__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],
     alt: "Swift Generics Hero Image"
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", null, `Generics are one thing that completely escaped me as I started learning Swift. Turns out they are one of the most powerful features in the entire Swift Language. Generics allow you to write flexible, reusable functions by writing code that is independent of Types.`));
@@ -778,10 +777,6 @@ const meta = {
   authors: [_authors__WEBPACK_IMPORTED_MODULE_2__[/* waynedahlberg */ "a"]],
   discussion: "https://github.com/tailwindlabs/tailwindcss/discussions/2511"
 };
-Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("img", {
-  src: _hero_enums_png__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],
-  alt: "Swift Enumerations hero image"
-});
 
 const makeShortcode = name => function MDXDefaultShortcode(props) {
   console.warn("Component " + name + " was not imported, exported, or provided by MDXProvider as global scope");
@@ -801,6 +796,9 @@ function MDXContent(_ref) {
   return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])(MDXLayout, _extends({}, layoutProps, props, {
     components: components,
     mdxType: "MDXLayout"
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("img", {
+    src: _hero_enums_png__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],
+    alt: "Swift Enumerations hero image"
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", null, `An enumeration defines a common type for a group of related values and enables you to work with those values in a type-safe way within your code.`));
 }
 ;
