@@ -4,13 +4,13 @@
         <description><![CDATA[Blog – Wayne Dahlberg]]></description>
         <link>https://wayne.work/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 16 Nov 2020 18:43:14 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 16 Nov 2020 22:56:57 GMT</lastBuildDate>
         <atom:link href="https://wayne.work/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[A Combine Primer]]></title>
             <description><![CDATA[An Introduction to Combine.]]></description>
-            <link>https://wayne.work/111020-a-combine-primer</link>
-            <guid isPermaLink="false">/111020-a-combine-primer</guid>
+            <link>https://wayne.work/combine-primer</link>
+            <guid isPermaLink="false">/combine-primer</guid>
             <pubDate>Tue, 10 Nov 2020 14:00:00 GMT</pubDate>
             <author>
                 <name>Wayne Dahlberg</name>
@@ -19,8 +19,8 @@
         <item>
             <title><![CDATA[Basics of Swift Access Control]]></title>
             <description><![CDATA[The basics of Swift Access Control.]]></description>
-            <link>https://wayne.work/110920-swift-access-control</link>
-            <guid isPermaLink="false">/110920-swift-access-control</guid>
+            <link>https://wayne.work/swift-access-control</link>
+            <guid isPermaLink="false">/swift-access-control</guid>
             <pubDate>Mon, 09 Nov 2020 16:00:00 GMT</pubDate>
             <author>
                 <name>Wayne Dahlberg</name>
@@ -29,8 +29,8 @@
         <item>
             <title><![CDATA[Swift Generics]]></title>
             <description><![CDATA[The basics of Swift Generics.]]></description>
-            <link>https://wayne.work/110920-swift-generics</link>
-            <guid isPermaLink="false">/110920-swift-generics</guid>
+            <link>https://wayne.work/swift-generics</link>
+            <guid isPermaLink="false">/swift-generics</guid>
             <pubDate>Mon, 09 Nov 2020 14:00:00 GMT</pubDate>
             <author>
                 <name>Wayne Dahlberg</name>
@@ -39,8 +39,8 @@
         <item>
             <title><![CDATA[Swift Enumerations]]></title>
             <description><![CDATA[The basics of Swift Enumerations.]]></description>
-            <link>https://wayne.work/110920-swift-enumerations</link>
-            <guid isPermaLink="false">/110920-swift-enumerations</guid>
+            <link>https://wayne.work/swift-enumerations</link>
+            <guid isPermaLink="false">/swift-enumerations</guid>
             <pubDate>Mon, 09 Nov 2020 12:00:00 GMT</pubDate>
             <author>
                 <name>Wayne Dahlberg</name>
@@ -49,8 +49,8 @@
         <item>
             <title><![CDATA[SwiftUI Basics]]></title>
             <description><![CDATA[The basics of the SwiftUI layout framework.]]></description>
-            <link>https://wayne.work/110820-swiftui-basics</link>
-            <guid isPermaLink="false">/110820-swiftui-basics</guid>
+            <link>https://wayne.work/swiftui-basics</link>
+            <guid isPermaLink="false">/swiftui-basics</guid>
             <pubDate>Sun, 08 Nov 2020 12:00:00 GMT</pubDate>
             <author>
                 <name>Wayne Dahlberg</name>
@@ -59,8 +59,8 @@
         <item>
             <title><![CDATA[Foundational Swift Types]]></title>
             <description><![CDATA[Back to basics with Swift types]]></description>
-            <link>https://wayne.work/110720-swift-types</link>
-            <guid isPermaLink="false">/110720-swift-types</guid>
+            <link>https://wayne.work/swift-types</link>
+            <guid isPermaLink="false">/swift-types</guid>
             <pubDate>Sat, 07 Nov 2020 12:00:00 GMT</pubDate>
             <author>
                 <name>Wayne Dahlberg</name>
@@ -69,8 +69,8 @@
         <item>
             <title><![CDATA[Figma Variants]]></title>
             <description><![CDATA[Designing extensible components in Figma is fun!]]></description>
-            <link>https://wayne.work/110520-figma-variants</link>
-            <guid isPermaLink="false">/110520-figma-variants</guid>
+            <link>https://wayne.work/figma-variants</link>
+            <guid isPermaLink="false">/figma-variants</guid>
             <pubDate>Thu, 05 Nov 2020 12:00:00 GMT</pubDate>
             <author>
                 <name>Wayne Dahlberg</name>
@@ -79,8 +79,8 @@
         <item>
             <title><![CDATA[Hello World 👋]]></title>
             <description><![CDATA[This is the first post of my blog.]]></description>
-            <link>https://wayne.work/110220-hello-world</link>
-            <guid isPermaLink="false">/110220-hello-world</guid>
+            <link>https://wayne.work/hello-world</link>
+            <guid isPermaLink="false">/hello-world</guid>
             <pubDate>Mon, 02 Nov 2020 19:00:00 GMT</pubDate>
             <author>
                 <name>Wayne Dahlberg</name>
