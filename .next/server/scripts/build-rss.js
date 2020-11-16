@@ -93,6 +93,14 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "+8Fr":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/combine-marble-count.f6966c3cd646b43700113017a8549ee8.jpg");
+
+/***/ }),
+
 /***/ "+YBj":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -121,7 +129,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 
 
 const meta = {
-  title: `Swift Types`,
+  title: `Foundational Swift Types`,
   description: `Back to basics with Swift types`,
   date: "2020-11-07T12:00:00.000Z",
   authors: [_authors__WEBPACK_IMPORTED_MODULE_2__[/* waynedahlberg */ "a"]],
@@ -168,6 +176,14 @@ MDXContent.isMDXComponent = true;
 
 /***/ }),
 
+/***/ "0xlk":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/combine-marble-map.881a09428ca018f5c654e27c25f090d2.jpg");
+
+/***/ }),
+
 /***/ "493F":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -196,7 +212,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 
 
 const meta = {
-  title: `Swift Access Control`,
+  title: `Basics of Swift Access Control`,
   description: `The basics of Swift Access Control.`,
   date: "2020-11-09T16:00:00.000Z",
   authors: [_authors__WEBPACK_IMPORTED_MODULE_2__[/* waynedahlberg */ "a"]],
@@ -292,46 +308,6 @@ fs__WEBPACK_IMPORTED_MODULE_0___default.a.writeFileSync('./out/feed.xml', feed.x
 
 /***/ }),
 
-/***/ "C2Yc":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/combine-marble-count.f6966c3cd646b43700113017a8549ee8.jpg");
-
-/***/ }),
-
-/***/ "E04T":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/hero-combine.5798c59090c1c14b387382005332257d.png");
-
-/***/ }),
-
-/***/ "GhaY":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/combine-marble-zip.09d6404d9a918d07ac140c43d2cf8b9c.jpg");
-
-/***/ }),
-
-/***/ "H14B":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/combine-marble-map.881a09428ca018f5c654e27c25f090d2.jpg");
-
-/***/ }),
-
-/***/ "H2oo":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/combine-marble-first.99c7d6612ba63def941084fb088fdfcf.jpg");
-
-/***/ }),
-
 /***/ "LRld":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -394,6 +370,14 @@ MDXContent.isMDXComponent = true;
 
 /***/ }),
 
+/***/ "M2m8":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/hero-combine.5798c59090c1c14b387382005332257d.png");
+
+/***/ }),
+
 /***/ "NRog":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -410,11 +394,11 @@ MDXContent.isMDXComponent = true;
 
 /***/ }),
 
-/***/ "SckI":
+/***/ "SK2t":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/combine-marble-merge.38d8beb7cde2d6f3d9838610e59004a5.jpg");
+/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/combine-marble-first.99c7d6612ba63def941084fb088fdfcf.jpg");
 
 /***/ }),
 
@@ -426,102 +410,11 @@ MDXContent.isMDXComponent = true;
 
 /***/ }),
 
-/***/ "VD1D":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/combine-marble-last.dd6b870f20baa7075829428182d596ea.jpg");
-
-/***/ }),
-
 /***/ "YICZ":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/hero-types.0fd3eb31b1dfa7b2898f6ddb00ec8594.png");
-
-/***/ }),
-
-/***/ "YLsQ":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "meta", function() { return meta; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("cDcd");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("c2Xn");
-/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _authors__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("iBhN");
-/* harmony import */ var _combine_marble_merge_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("SckI");
-/* harmony import */ var _combine_marble_map_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("H14B");
-/* harmony import */ var _combine_marble_first_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("H2oo");
-/* harmony import */ var _combine_marble_last_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("VD1D");
-/* harmony import */ var _combine_marble_count_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__("C2Yc");
-/* harmony import */ var _combine_marble_debounce_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__("fQ/H");
-/* harmony import */ var _combine_marble_zip_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__("GhaY");
-/* harmony import */ var _hero_combine_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__("E04T");
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
-
-
-
-/* @jsx mdx */
-
-
-
-
-
-
-
-
-
-
-const meta = {
-  title: `What is Combine?`,
-  description: `An Introduction to Combine.`,
-  date: "2020-11-10T14:00:00.000Z",
-  authors: [_authors__WEBPACK_IMPORTED_MODULE_2__[/* waynedahlberg */ "a"]],
-  discussion: "https://github.com/tailwindlabs/tailwindcss/discussions/2511"
-};
-
-const makeShortcode = name => function MDXDefaultShortcode(props) {
-  console.warn("Component " + name + " was not imported, exported, or provided by MDXProvider as global scope");
-  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("div", props);
-};
-
-const layoutProps = {
-  meta
-};
-const MDXLayout = "wrapper";
-function MDXContent(_ref) {
-  let {
-    components
-  } = _ref,
-      props = _objectWithoutProperties(_ref, ["components"]);
-
-  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: "MDXLayout"
-  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("img", {
-    src: _hero_combine_png__WEBPACK_IMPORTED_MODULE_10__[/* default */ "a"],
-    alt: "What is Combine? Apple's reactive programming framework."
-  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", null, `Combine is the new reactive programming framework from `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _extends({
-    parentName: "p"
-  }, {
-    "href": "https://developer.apple.com/documentation/combine"
-  }), `Apple`), `. Like SwiftUI (which it pairs beautifully with), Combine is declarative. It provides tools for managing streams of your app's events over time, and `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("em", {
-    parentName: "p"
-  }, `react`), ` accordingly. Because it has the blessing of Apple, you know it's here to stay.`));
-}
-;
-MDXContent.isMDXComponent = true;
 
 /***/ }),
 
@@ -578,19 +471,19 @@ module.exports = require("react");
 
 /***/ }),
 
+/***/ "eGWO":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/combine-marble-zip.09d6404d9a918d07ac140c43d2cf8b9c.jpg");
+
+/***/ }),
+
 /***/ "fFf7":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/swiftui-basics-02.ba1f87f1dd1de6ba98b238d9e15f280e.jpg");
-
-/***/ }),
-
-/***/ "fQ/H":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/combine-marble-debounce.6a0fc7ae8e1c49de07ae0450a3bf915e.jpg");
 
 /***/ }),
 
@@ -806,6 +699,14 @@ MDXContent.isMDXComponent = true;
 
 /***/ }),
 
+/***/ "t3Ud":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/combine-marble-debounce.6a0fc7ae8e1c49de07ae0450a3bf915e.jpg");
+
+/***/ }),
+
 /***/ "tFF7":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -875,6 +776,97 @@ MDXContent.isMDXComponent = true;
 
 "use strict";
 /* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/swiftui-basics-04.23fa79e7dfc07b112dd5285318cb3b0d.jpg");
+
+/***/ }),
+
+/***/ "vwok":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/combine-marble-last.dd6b870f20baa7075829428182d596ea.jpg");
+
+/***/ }),
+
+/***/ "wPj1":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "meta", function() { return meta; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("cDcd");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("c2Xn");
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _authors__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("iBhN");
+/* harmony import */ var _combine_marble_merge_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("xDM2");
+/* harmony import */ var _combine_marble_map_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("0xlk");
+/* harmony import */ var _combine_marble_first_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("SK2t");
+/* harmony import */ var _combine_marble_last_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("vwok");
+/* harmony import */ var _combine_marble_count_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__("+8Fr");
+/* harmony import */ var _combine_marble_debounce_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__("t3Ud");
+/* harmony import */ var _combine_marble_zip_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__("eGWO");
+/* harmony import */ var _hero_combine_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__("M2m8");
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+
+
+/* @jsx mdx */
+
+
+
+
+
+
+
+
+
+
+const meta = {
+  title: `A Combine Primer`,
+  description: `An Introduction to Combine.`,
+  date: "2020-11-10T14:00:00.000Z",
+  authors: [_authors__WEBPACK_IMPORTED_MODULE_2__[/* waynedahlberg */ "a"]],
+  discussion: "https://github.com/tailwindlabs/tailwindcss/discussions/2511"
+};
+
+const makeShortcode = name => function MDXDefaultShortcode(props) {
+  console.warn("Component " + name + " was not imported, exported, or provided by MDXProvider as global scope");
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("div", props);
+};
+
+const layoutProps = {
+  meta
+};
+const MDXLayout = "wrapper";
+function MDXContent(_ref) {
+  let {
+    components
+  } = _ref,
+      props = _objectWithoutProperties(_ref, ["components"]);
+
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: "MDXLayout"
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("img", {
+    src: _hero_combine_png__WEBPACK_IMPORTED_MODULE_10__[/* default */ "a"],
+    alt: "What is Combine? Apple's reactive programming framework."
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", null, `Combine is the new reactive programming framework from `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _extends({
+    parentName: "p"
+  }, {
+    "href": "https://developer.apple.com/documentation/combine"
+  }), `Apple`), `. Like SwiftUI (which it pairs beautifully with), Combine is declarative. It provides tools for managing streams of your app's events over time, and `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("em", {
+    parentName: "p"
+  }, `react`), ` accordingly. Because it has the blessing of Apple, you know it's here to stay.`));
+}
+;
+MDXContent.isMDXComponent = true;
 
 /***/ }),
 
@@ -959,6 +951,14 @@ MDXContent.isMDXComponent = true;
 
 /***/ }),
 
+/***/ "xDM2":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/combine-marble-merge.38d8beb7cde2d6f3d9838610e59004a5.jpg");
+
+/***/ }),
+
 /***/ "xk/1":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -970,7 +970,7 @@ var map = {
 	"./110920-swift-access-control/index.mdx": "493F",
 	"./110920-swift-enumerations/index.mdx": "qCJp",
 	"./110920-swift-generics/index.mdx": "kcoj",
-	"./111020-what-is-combine/index.mdx": "YLsQ"
+	"./111020-a-combine-primer/index.mdx": "wPj1"
 };
 
 
