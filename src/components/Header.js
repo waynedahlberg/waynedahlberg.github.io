@@ -42,12 +42,6 @@
             </a>
           </Link>
 
-          <Link href="/store">
-            <a className="font-medium text-teal-500 hover:text-teal-700 pl-6">
-              Store
-            </a>
-          </Link>
-
           <Link href="/about">
             <a className="font-medium text-teal-500 hover:text-teal-700 pl-6">
               About
