@@ -29,7 +29,7 @@
             </a>
           </Link>
         </div>
-        <div className="text-base leading-5">
+        <div className="text-sm md:text-base lg:text-lg leading-3">
           <Link href="/">
             <a className="font-medium text-teal-500 hover:text-teal-700">
               Blog
@@ -37,19 +37,19 @@
           </Link>
 
           <Link href="/projects">
-            <a className="font-medium text-teal-500 hover:text-teal-700 pl-8">
+            <a className="font-medium text-teal-500 hover:text-teal-700 pl-6">
               Projects
             </a>
           </Link>
 
           <Link href="/store">
-            <a className="font-medium text-teal-500 hover:text-teal-700 pl-8">
+            <a className="font-medium text-teal-500 hover:text-teal-700 pl-6">
               Store
             </a>
           </Link>
 
           <Link href="/about">
-            <a className="font-medium text-teal-500 hover:text-teal-700 pl-8">
+            <a className="font-medium text-teal-500 hover:text-teal-700 pl-6">
               About
             </a>
           </Link>
