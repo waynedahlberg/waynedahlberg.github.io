@@ -1,0 +1,83 @@
+import { waynedahlberg } from "@/authors";
+import hero from "./hero-swiftui-part1-apps.png";
+import previewDevice from "./previewDevice.jpg";
+import previewLayout from "./previewLayout.jpg";
+
+export const meta = {
+  title: `Intro to SwiftUI part one - Apps`,
+  description: `The basics of the SwiftUI layout framework.`,
+  date: "2020-11-17T19:51:00.000Z",
+  authors: [waynedahlberg],
+  discussion: "https://github.com/tailwindlabs/tailwindcss/discussions/2511",
+};
+
+<img src={hero} alt="Swiftui Basics hero image" />
+
+### What is SwiftUI?
+
+SwiftUI is Apple's new framework for describing views, interface controls and layout tools for software development. It provides for controlling user input, managing data flow, and updating of views displayed to the user. I'm personally very excited about this new approach to app development. It's fundamentally different from the imperative approach with UIKit.
+
+<!--more-->
+
+### New App Protocol
+
+Using Xcode 12, Apple has defined the new App protocol for describing the structure and behavior apps. This is a big change from the legacy AppDelegate and SceneDelegate structure of the UIKit world. The new app structure is defined like so:
+
+```Swift
+@Main
+struct WeatherApp: App {
+	var body: some Scene {
+		WindowGroup {
+			WeatherView()
+		}
+		Settings {
+			SettingsView()
+		}
+	}
+}
+```
+
+The `@Main` attribute for the `App` protocol indicates your app's starting point, and provides a default implementation of `main()` method used to launch the applicaiton. This is the only entry point in your app. Once launched, the structure of your app is managed by one or more instances of the `Scene` protocol. Scenes are part of your app's life cycle managed by the system. There are a few system Scene types that deal specifically with handling documents, app settings, and more. Most of the time you'll be creating your own custom scenes, like `WeatherView` in the example above.
+
+In the declarative, reactive world - managing application state is paramount and considered a first-class paradigm. Scenes can help manage state at the scene level. `@StateObject` attributes are used to initialize data models, and make them available to views via `@ObservedObject` property wrappers or through the environment via `@EnvironmentObject` to scenes.
+
+```Swift
+@Main
+struct WeatherApp: App {
+	@StateObject private var model = WeatherModel()
+
+	var body: some Scene {
+		WindowGroup {
+			WeatherView()
+				.environmentObject(model) // passed via environment
+		}
+		Settings {
+			SettingsView(model: model) // passed via observed object
+		}
+	}
+}
+```
+
+With this new structure you're able to share common code between multiple platforms their own views and controls that react to their own context and presentation.
+
+### Preview Canvas in Xcode 12
+
+Xcode 12 features a live IDE where you can generate dynamic, interactive previews of custom views.
+
+<img src={previewDevice} alt="Preview in device frame" />
+
+```Swift
+ContentView()
+  .previewDevice("iPhone SE")
+```
+
+You're able to preview in all devices on the canvas, as well as describe custom layout sizes.
+
+<img src={previewLayout} alt="Preview in any size frame" />
+
+```Swift
+ContentView()
+  .previewLayout(.fixed(width: 400, height: 200))
+```
+
+need to add more here...

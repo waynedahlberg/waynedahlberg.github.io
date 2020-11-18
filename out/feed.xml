@@ -4,8 +4,18 @@
         <description><![CDATA[Blog – Wayne Dahlberg]]></description>
         <link>https://wayne.work/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 17 Nov 2020 18:31:17 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 18 Nov 2020 03:13:27 GMT</lastBuildDate>
         <atom:link href="https://wayne.work/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Intro to SwiftUI part one - Apps]]></title>
+            <description><![CDATA[The basics of the SwiftUI layout framework.]]></description>
+            <link>https://wayne.work/intro-swiftui-apps</link>
+            <guid isPermaLink="false">/intro-swiftui-apps</guid>
+            <pubDate>Tue, 17 Nov 2020 19:51:00 GMT</pubDate>
+            <author>
+                <name>Wayne Dahlberg</name>
+            </author>
+        </item>
         <item>
             <title><![CDATA[A Combine Primer]]></title>
             <description><![CDATA[An Introduction to Combine.]]></description>

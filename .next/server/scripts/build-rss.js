@@ -171,6 +171,14 @@ MDXContent.isMDXComponent = true;
 
 /***/ }),
 
+/***/ "3gzY":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/previewDevice.af99c67836589d74cd78b908ce100c97.jpg");
+
+/***/ }),
+
 /***/ "3h73":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -368,6 +376,14 @@ fs__WEBPACK_IMPORTED_MODULE_0___default.a.writeFileSync('./out/feed.xml', feed.x
 
 /***/ }),
 
+/***/ "7l8E":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/hero-swiftui-part1-apps.024d9d35596d0dbc05dca01ed83440cd.png");
+
+/***/ }),
+
 /***/ "9IIa":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -429,6 +445,14 @@ fs__WEBPACK_IMPORTED_MODULE_0___default.a.writeFileSync('./out/feed.xml', feed.x
 
 "use strict";
 /* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/combine-marble-debounce.6a0fc7ae8e1c49de07ae0450a3bf915e.jpg");
+
+/***/ }),
+
+/***/ "Nrrh":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/previewLayout.9639e1399fee236cf28807ca17c03373.jpg");
 
 /***/ }),
 
@@ -894,6 +918,73 @@ module.exports = require("fs");
 
 /***/ }),
 
+/***/ "vKB+":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "meta", function() { return meta; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("cDcd");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("c2Xn");
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _authors__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("iBhN");
+/* harmony import */ var _hero_swiftui_part1_apps_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("7l8E");
+/* harmony import */ var _previewDevice_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("3gzY");
+/* harmony import */ var _previewLayout_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("Nrrh");
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+
+
+/* @jsx mdx */
+
+
+
+
+
+const meta = {
+  title: `Intro to SwiftUI part one - Apps`,
+  description: `The basics of the SwiftUI layout framework.`,
+  date: "2020-11-17T19:51:00.000Z",
+  authors: [_authors__WEBPACK_IMPORTED_MODULE_2__[/* waynedahlberg */ "a"]],
+  discussion: "https://github.com/tailwindlabs/tailwindcss/discussions/2511"
+};
+
+const makeShortcode = name => function MDXDefaultShortcode(props) {
+  console.warn("Component " + name + " was not imported, exported, or provided by MDXProvider as global scope");
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("div", props);
+};
+
+const layoutProps = {
+  meta
+};
+const MDXLayout = "wrapper";
+function MDXContent(_ref) {
+  let {
+    components
+  } = _ref,
+      props = _objectWithoutProperties(_ref, ["components"]);
+
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: "MDXLayout"
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("img", {
+    src: _hero_swiftui_part1_apps_png__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],
+    alt: "Swiftui Basics hero image"
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("h3", null, `What is SwiftUI?`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", null, `SwiftUI is Apple's new framework for describing views, interface controls and layout tools for software development. It provides for controlling user input, managing data flow, and updating of views displayed to the user. I'm personally very excited about this new approach to app development. It's fundamentally different from the imperative approach with UIKit.`));
+}
+;
+MDXContent.isMDXComponent = true;
+
+/***/ }),
+
 /***/ "vkvf":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -974,6 +1065,7 @@ var map = {
 	"./combine-primer/index.mdx": "RVdD",
 	"./figma-variants/index.mdx": "+QWl",
 	"./hello-world/index.mdx": "jcR1",
+	"./intro-swiftui-apps/index.mdx": "vKB+",
 	"./swift-access-control/index.mdx": "vkvf",
 	"./swift-enumerations/index.mdx": "cmxM",
 	"./swift-generics/index.mdx": "3h73",

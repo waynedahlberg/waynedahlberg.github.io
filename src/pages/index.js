@@ -27,8 +27,8 @@ export default function Home() {
         <meta name="description" content="Articles and thoughts on product design, user experience and software development." />
       </Head>
       <div className="pt-6 pb-8 space-y-2 md:space-y-5">
-        <h1 className="text-3xl leading-9 font-bold text-gray-900 tracking-tight sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-          Blog
+        <h1 className="text-xl leading-5 font-bold text-gray-900 tracking-tight sm:text-2xl sm:leading-8 md:text-3xl md:leading-10">
+          Wayne Dahlberg
         </h1>
         <p className="text-base font-regular leading-7 text-gray-400 tracking-wide">
           THOUGHTS ON PRODUCT DESIGN, DEVELOPMENT
