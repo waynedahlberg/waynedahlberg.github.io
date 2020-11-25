@@ -539,6 +539,69 @@ MDXContent.isMDXComponent = true;
 
 /***/ }),
 
+/***/ "Smk1":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "meta", function() { return meta; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("cDcd");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("c2Xn");
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _authors__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("iBhN");
+/* harmony import */ var _hero_ranges_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("r94c");
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+
+
+/* @jsx mdx */
+
+
+
+const meta = {
+  title: `Swift Ranges`,
+  description: `The basics of Swift Enumerations.`,
+  date: "2020-11-24T12:00:00.000Z",
+  authors: [_authors__WEBPACK_IMPORTED_MODULE_2__[/* waynedahlberg */ "a"]],
+  discussion: "https://github.com/tailwindlabs/tailwindcss/discussions/2511"
+};
+
+const makeShortcode = name => function MDXDefaultShortcode(props) {
+  console.warn("Component " + name + " was not imported, exported, or provided by MDXProvider as global scope");
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("div", props);
+};
+
+const layoutProps = {
+  meta
+};
+const MDXLayout = "wrapper";
+function MDXContent(_ref) {
+  let {
+    components
+  } = _ref,
+      props = _objectWithoutProperties(_ref, ["components"]);
+
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: "MDXLayout"
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("img", {
+    src: _hero_ranges_png__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],
+    alt: "Swift Ranges hero image"
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", null, `Ranges are generic Swift Structures for selecting a range, or a limited subset, of an existing type. Ranges are used commonly for identifying elements between the lowest and highest values in a set.`));
+}
+;
+MDXContent.isMDXComponent = true;
+
+/***/ }),
+
 /***/ "UXpt":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -894,6 +957,14 @@ module.exports = require("fs");
 
 /***/ }),
 
+/***/ "r94c":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ("/_next/static/media/hero-ranges.3b4e1a12d295783da705b4059b77eb09.png");
+
+/***/ }),
+
 /***/ "rLIU":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1069,6 +1140,7 @@ var map = {
 	"./swift-access-control/index.mdx": "vkvf",
 	"./swift-enumerations/index.mdx": "cmxM",
 	"./swift-generics/index.mdx": "3h73",
+	"./swift-ranges/index.mdx": "Smk1",
 	"./swift-types/index.mdx": "5Ku1",
 	"./swiftui-basics/index.mdx": "V7fV"
 };

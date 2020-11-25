@@ -1,1 +1,0 @@
-self.__SSG_MANIFEST=new Set(["\u002F.introducing-verses","\u002Fintro-swiftui-apps","\u002Fswift-generics","\u002Fswift-access-control","\u002Fswiftui-basics","\u002Fswift-types","\u002Fswift-enumerations","\u002Fcombine-primer","\u002Fhello-world","\u002Ffigma-variants"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
