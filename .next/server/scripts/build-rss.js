@@ -533,7 +533,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 const meta = {
   title: `Swift Number Formatting`,
   description: `The basics of Swift Number formatting.`,
-  date: '2020-11-24T12:00:00.000Z',
+  date: '2020-12-02T12:00:00.000Z',
   authors: [_authors__WEBPACK_IMPORTED_MODULE_2__[/* waynedahlberg */ "a"]],
   discussion: 'https://github.com/tailwindlabs/tailwindcss/discussions/2511'
 };

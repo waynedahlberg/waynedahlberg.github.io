@@ -4,14 +4,14 @@
         <description><![CDATA[Blog – Wayne Dahlberg]]></description>
         <link>https://wayne.work/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 03 Dec 2020 08:20:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Dec 2020 08:23:29 GMT</lastBuildDate>
         <atom:link href="https://wayne.work/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Swift Number Formatting]]></title>
             <description><![CDATA[The basics of Swift Number formatting.]]></description>
             <link>https://wayne.work/swift-numbers</link>
             <guid isPermaLink="false">/swift-numbers</guid>
-            <pubDate>Tue, 24 Nov 2020 12:00:00 GMT</pubDate>
+            <pubDate>Wed, 02 Dec 2020 12:00:00 GMT</pubDate>
             <author>
                 <name>Wayne Dahlberg</name>
             </author>
