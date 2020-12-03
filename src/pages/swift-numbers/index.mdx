@@ -1,0 +1,154 @@
+import { waynedahlberg } from '@/authors'
+import hero from './hero-numbers.png'
+
+export const meta = {
+  title: `Swift Number Formatting`,
+  description: `The basics of Swift Number formatting.`,
+  date: '2020-11-24T12:00:00.000Z',
+  authors: [waynedahlberg],
+  discussion: 'https://github.com/tailwindlabs/tailwindcss/discussions/2511',
+}
+
+<img src={hero} alt="Swift Ranges hero image" />
+
+Numbers are everywhere. They come in many different flavors. Currency, dates, scientific, etc. Computers are excellent and reading and interpreting the way numbers are expressed, humans less so. That's why we need to take the numbers that a computer understands and package them up in a way that makes sense to an average user.
+
+<!--more-->
+
+<div class="rounded-md bg-blue-50 p-4">
+  <div class="flex">
+    <div class="flex-shrink-0">
+      <svg
+        class="h-5 w-5 text-blue-400"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+      >
+        <path
+          fillRule="evenodd"
+          d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
+          clipRule="evenodd"
+        />
+      </svg>
+    </div>
+    <div class="ml-3 flex-1 md:flex md:justify-between">
+      <p class="text-sm leading-5 text-blue-700">
+        This is a another post in a series intended as a personal growth exercise. As I learn and
+        digest new things, I want to write about them to solidify my understanding.
+      </p>
+      <p class="mt-3 text-sm leading-5 md:mt-0 md:ml-6">
+        <a
+          href="https://fs.blog/2015/01/richard-feynman-knowing-something/"
+          class="whitespace-no-wrap font-medium text-blue-700 hover:text-blue-600 transition ease-in-out duration-150"
+        >
+          Feynman &rarr;
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+
+## Presention
+
+The simplest way of representing a readable number is by using a `String`.
+
+```Swift
+let x = "5"
+let y = "5.11"
+let z = "\(5), \(5.11)"
+```
+
+Okay, that works but it's not very usable. We need a more full-featured approach dealing with numbers we can control. Let's define a `Capacity` type that lets create a `Double` with a name, which we can present as a `description`.
+
+```Swift
+struct Capacity: Codable {
+  var name: String
+  var value: Double
+}
+
+extension Capacity: CustomStringConvertbile {
+  var description: String {
+    "\(name): \(value)"
+  }
+}
+```
+
+Now we're getting somewhere. But we still need to use the `Double` in a way that is more presentable. We need the decimal for precision, but we need a cutoff. Let's use 2 decimal places.
+
+```Swift
+extension Capacity: CustomStringConvertbile {
+  var description: String {
+    let formattedValue = String(format: "%.2f", value)
+    return "\(name): \(formattedValue)"
+  }
+}
+```
+
+This will always output 2 decimal places, even when the value is 2.00. Again, we can dive a little deeper with `NumberFormatter`.
+
+### NumberFormatter
+
+Let's format our number to show decimals when it has a decimal value, and remove the "." and trailing "00" when it's a whole number equivalent. `NumberFormatter` allows us to present a decimal with a max number of trailing digits. This will give us `81`, `81.8`, and `81.83` presented just like that. The precision level will included the necessary trailing digits up to a given maximum, and then simply rounded off.
+
+```Swift
+extension Capacity: CustomStringConvertbile {
+  var description: String
+    let formatter = NumberFormatter()
+    formatter.numberStyle = .decimal
+    formatter.maximumFractionDigits = 2
+
+    let number = NSNumber(value: value)
+    let formattedValue = formatter.string(from: number)!
+    return "\(name) : \(formattedValue)"
+}
+```
+
+When using `NumberFormatter` you can take into account the user's `Locale` in order to present numbers with more context. In the US, we see the number `12345.67` while the same number viewed on a device in Europe will look like `12 345,67`. Other locales may present it as `12,345.67`. We get all that beautiful regional formatting for free when using `NumberFormatter`.
+
+### Domain specificity
+
+Depending on our needs, we'll need to deal with _domain-specific_ that hold additional features. If we're working on a Restaurant application and dealing with `Double`, we can wrap the value in a `Price` struct to better describe the cost of items on the menu.
+
+```Swift
+struct MenuItem: Codable {
+  var name: String
+  var price: Price
+}
+
+struct Price: Codable {
+  var amount: Double
+  var currency: Currency
+}
+
+enum Currency: String, Codable {
+  case eur
+  case usd
+  case mx
+  case cad
+}
+
+extension Price: CustomStringConvertbile {
+  var description: String {
+    let formatter = NumberFormatter()
+    formatter.numberStyle = .currency
+    formatter.currencyCode = currency.rawValue
+    formatter.maximumFractionDigits = 2
+
+    let number = NSNumber(value: amount)
+    return formatter.string(from: number)!
+  }
+}
+```
+
+With the above `Price` type fully defined, let's look at the number `8.99` as defined by the type in different locales.
+
+- Sweden: `8,99 usd`
+- Spain: `8.99 USD`
+- US: `USD 8.99`
+- France: `USD 8,99`
+
+Even though the differences are slight, it can be very important when creating a storefront that works as desired in many different locales.
+
+---
+
+Formatting numbers as human-readable strings is something we want to rely on the system for, especially when dealing with user locale. Casting a `Double` as a `String` may seem trivial, but formatting the value into the _correct_ string is much more difficult than it appears.
