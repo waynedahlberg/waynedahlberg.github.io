@@ -16,22 +16,31 @@ export default function Home() {
         <meta name="twitter:site" content="@waynedahlberg" />
         <meta name="twitter:creator" content="@waynedahlberg" />
         <meta name="twitter:title" content="Blog – Wayne Dahlberg" />
-        <meta name="twitter:description" content="Articles and thoughts on product design, user experience and software development." />
+        <meta
+          name="twitter:description"
+          content="Articles and thoughts on product design, user experience and software development."
+        />
         <meta name="twitter:image" content={`https://wayne.work${twitterCard}`} />
         <meta property="og:url" content="https://wayne.work" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Blog – Wayne Dahlberg" />
-        <meta property="og:description" content="Articles and thoughts on product design, user experience and software development." />
+        <meta
+          property="og:description"
+          content="Articles and thoughts on product design, user experience and software development."
+        />
         <meta property="og:image" content={`https://wayne.work${twitterCard}`} />
         <title>Blog - Wayne Dahlberg</title>
-        <meta name="description" content="Articles and thoughts on product design, user experience and software development." />
+        <meta
+          name="description"
+          content="Articles and thoughts on product design, user experience and software development."
+        />
       </Head>
       <div className="pt-6 pb-8 space-y-2 md:space-y-5">
         <h1 className="text-xl leading-5 font-bold text-gray-900 tracking-tight sm:text-2xl sm:leading-8 md:text-3xl md:leading-10">
-          Wayne Dahlberg
+          Recently...
         </h1>
         <p className="text-base font-regular leading-7 text-gray-400 tracking-wide">
-          THOUGHTS ON PRODUCT DESIGN, DEVELOPMENT
+          My thoughts on product design and development
         </p>
       </div>
       <ul className="divide-y divide-gray-200">
@@ -73,6 +82,5 @@ export default function Home() {
         })}
       </ul>
     </div>
-
   )
 }
