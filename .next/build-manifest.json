@@ -11,6 +11,10 @@
     "static/development/_ssgManifest.module.js"
   ],
   "pages": {
+    "/": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/_app": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
@@ -22,11 +26,15 @@
     "/_polyfills": [
       "static/runtime/polyfills.js"
     ],
-    "/introducing-verses": [
+    "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/stories-as-media-type": [
+    "/projects": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/swift-numbers": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

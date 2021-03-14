@@ -24,7 +24,7 @@ export default function Projects() {
             </Head>
 
             <div className="pt-6 pb-8 space-y-2 md:space-y-5">
-                <h1 className="text-3xl leading-9 font-bold text-gray-900 tracking-tight sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+            <h1 className="text-xl leading-9 font-bold text-gray-900 tracking-tight sm:text-2xl sm:leading-10 md:text-3xl md:leading-14">
                     Projects
                 </h1>
                 <p className="text-base font-regular leading-7 text-gray-400 tracking-wide">
@@ -35,7 +35,7 @@ export default function Projects() {
             
             <div className="relative max-w-7xl mx-auto">
                 
-                <div className="mt-12 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none">
+                <div className="mt-12 grid gap-5 max-w-lg mx-auto lg:grid-cols-2 lg:max-w-none">
                 
                 <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
                     <div className="flex-shrink-0">
@@ -89,10 +89,10 @@ export default function Projects() {
                         </p>
                         <a href="#" className="block">
                         <h3 className="mt-2 text-xl leading-7 font-semibold text-gray-900">
-                            Modern Design Systems
+                            Figma Design Systems
                         </h3>
                         <p className="mt-3 text-base leading-6 text-gray-500">
-                            Thoughts and experiments building design systems in Figma.
+                            Thoughts and experiments building design systems, components, variants and more in Figma.
                         </p>
                         </a>
                     </div>
@@ -130,10 +130,10 @@ export default function Projects() {
                         </p>
                         <a href="#" className="block">
                         <h3 className="mt-2 text-xl leading-7 font-semibold text-gray-900">
-                            R2-D2 Astromech
+                            R2-D2
                         </h3>
                         <p className="mt-3 text-base leading-6 text-gray-500">
-                            A journey to build a full-size, autonomous, aluminum replica of the movie prop. Bleep bloop.
+                            A journey to build a full-size, aluminum replica of the galaxy's favorite droid. Bleep bloop.
                         </p>
                         </a>
                     </div>

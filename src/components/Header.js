@@ -25,7 +25,7 @@
         <div>
           <Link href="/">
             <a aria-label="Wayne Dahlberg's Blog">
-              <WayneMarkThree className="hidden sm:block h-6" />
+              <WayneMark className="hidden sm:block h-6" />
             </a>
           </Link>
         </div>

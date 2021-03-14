@@ -4,14 +4,14 @@
         <description><![CDATA[Blog – Wayne Dahlberg]]></description>
         <link>https://wayne.work/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 14 Mar 2021 03:03:04 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 14 Mar 2021 04:09:01 GMT</lastBuildDate>
         <atom:link href="https://wayne.work/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[Stories as a new media type]]></title>
-            <description><![CDATA[Stories have become ubiquitous, and no one platform can claim ownership on them.]]></description>
-            <link>https://wayne.work/stories-as-media-type</link>
-            <guid isPermaLink="false">/stories-as-media-type</guid>
-            <pubDate>Invalid Date</pubDate>
+            <title><![CDATA[Introducing Verses]]></title>
+            <description><![CDATA[A beautifully designed reading companion app for The Book of Mormon. ]]></description>
+            <link>https://wayne.work/introducing-verses</link>
+            <guid isPermaLink="false">/introducing-verses</guid>
+            <pubDate>Tue, 22 Dec 2020 14:24:00 GMT</pubDate>
             <author>
                 <name>Wayne Dahlberg</name>
             </author>
@@ -112,16 +112,6 @@
             <link>https://wayne.work/figma-variants</link>
             <guid isPermaLink="false">/figma-variants</guid>
             <pubDate>Thu, 05 Nov 2020 12:00:00 GMT</pubDate>
-            <author>
-                <name>Wayne Dahlberg</name>
-            </author>
-        </item>
-        <item>
-            <title><![CDATA[Introducing Verses]]></title>
-            <description><![CDATA[A beautifully designed reading companion app for The Book of Mormon. ]]></description>
-            <link>https://wayne.work/introducing-verses</link>
-            <guid isPermaLink="false">/introducing-verses</guid>
-            <pubDate>Wed, 04 Nov 2020 14:24:00 GMT</pubDate>
             <author>
                 <name>Wayne Dahlberg</name>
             </author>

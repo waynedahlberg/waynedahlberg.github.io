@@ -36,7 +36,7 @@ export default function Home() {
         />
       </Head>
       <div className="pt-6 pb-8 space-y-2 md:space-y-5">
-        <h1 className="text-xl leading-5 font-bold text-gray-900 tracking-tight sm:text-2xl sm:leading-8 md:text-3xl md:leading-10">
+      <h1 className="text-2xl leading-9 font-bold text-gray-900 tracking-tight sm:text-3xl sm:leading-10 md:text-4xl md:leading-14">
           Recently...
         </h1>
         <p className="text-base font-regular leading-7 text-gray-400 tracking-wide">
