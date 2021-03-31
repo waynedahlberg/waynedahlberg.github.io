@@ -1,1 +1,22 @@
-{"/.stories-as-media-type":"static/UhjpKIpCbFp4gAvo7DoYe/pages/.stories-as-media-type.js","/_app":"static/UhjpKIpCbFp4gAvo7DoYe/pages/_app.js","/_document":"static/UhjpKIpCbFp4gAvo7DoYe/pages/_document.js","/_error":"static/UhjpKIpCbFp4gAvo7DoYe/pages/_error.js","/about":"static/UhjpKIpCbFp4gAvo7DoYe/pages/about.html","/combine-primer":"static/UhjpKIpCbFp4gAvo7DoYe/pages/combine-primer.js","/figma-variants":"static/UhjpKIpCbFp4gAvo7DoYe/pages/figma-variants.js","/hello-world":"static/UhjpKIpCbFp4gAvo7DoYe/pages/hello-world.js","/index":"static/UhjpKIpCbFp4gAvo7DoYe/pages/index.html","/intro-swiftui-apps":"static/UhjpKIpCbFp4gAvo7DoYe/pages/intro-swiftui-apps.js","/introducing-verses":"static/UhjpKIpCbFp4gAvo7DoYe/pages/introducing-verses.js","/projects":"static/UhjpKIpCbFp4gAvo7DoYe/pages/projects.html","/swift-access-control":"static/UhjpKIpCbFp4gAvo7DoYe/pages/swift-access-control.js","/swift-enumerations":"static/UhjpKIpCbFp4gAvo7DoYe/pages/swift-enumerations.js","/swift-generics":"static/UhjpKIpCbFp4gAvo7DoYe/pages/swift-generics.js","/swift-numbers":"static/UhjpKIpCbFp4gAvo7DoYe/pages/swift-numbers.js","/swift-ranges copy":"static/UhjpKIpCbFp4gAvo7DoYe/pages/swift-ranges copy.js","/swift-types":"static/UhjpKIpCbFp4gAvo7DoYe/pages/swift-types.js","/swiftui-basics":"static/UhjpKIpCbFp4gAvo7DoYe/pages/swiftui-basics.js","/":"static/UhjpKIpCbFp4gAvo7DoYe/pages/index.html","/404":"static/UhjpKIpCbFp4gAvo7DoYe/pages/404.html"}
+{
+  "/.stories-as-media-type": "pages/.stories-as-media-type.js",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/about": "pages/about.js",
+  "/combine-primer": "pages/combine-primer.js",
+  "/figma-variants": "pages/figma-variants.js",
+  "/hello-world": "pages/hello-world.js",
+  "/": "pages/index.js",
+  "/intro-swiftui-apps": "pages/intro-swiftui-apps.js",
+  "/introducing-verses": "pages/introducing-verses.js",
+  "/projects": "pages/projects.js",
+  "/swift-access-control": "pages/swift-access-control.js",
+  "/swift-enumerations": "pages/swift-enumerations.js",
+  "/swift-generics": "pages/swift-generics.js",
+  "/swift-numbers": "pages/swift-numbers.js",
+  "/swift-optionals": "pages/swift-optionals.js",
+  "/swift-ranges copy": "pages/swift-ranges copy.js",
+  "/swift-types": "pages/swift-types.js",
+  "/swiftui-basics": "pages/swiftui-basics.js",
+  "/_error": "pages/_error.js"
+}

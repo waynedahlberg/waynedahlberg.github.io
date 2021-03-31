@@ -1,0 +1,1 @@
+{"ast":null,"code":"import waynedahlbergAvatar from './img/waynedahlberg.jpg';\nexport var waynedahlberg = {\n  name: 'Wayne Dahlberg',\n  twitter: '@waynedahlberg',\n  avatar: waynedahlbergAvatar\n};","map":null,"metadata":{},"sourceType":"module"}
